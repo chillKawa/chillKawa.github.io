@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="重積分と極限2015_3">
-<title>名大多元数理過去問</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="2012年午後大門1">
+<title>名大多元数理過去問[]</title>
 
-<link rel='canonical' href='https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/'>
+<link rel='canonical' href='http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/'>
 
-<link rel="stylesheet" href="/scss/style.min.95d8af31f9feb96efe2f82ef4fb4e6cbbf9f26b7a227ad7e78ef7ca7b74d000f.css"><meta property='og:title' content="名大多元数理過去問">
-<meta property='og:description' content="重積分と極限2015_3">
-<meta property='og:url' content='https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/'>
+<link rel="stylesheet" href="/scss/style.min.95d8af31f9feb96efe2f82ef4fb4e6cbbf9f26b7a227ad7e78ef7ca7b74d000f.css"><meta property='og:title' content="名大多元数理過去問[]">
+<meta property='og:description' content="2012年午後大門1">
+<meta property='og:url' content='http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/'>
 <meta property='og:site_name' content='Euleorz Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-15T23:37:26&#43;09:00'/><meta property='article:modified_time' content='2024-11-15T23:37:26&#43;09:00'/>
-<meta name="twitter:title" content="名大多元数理過去問">
-<meta name="twitter:description" content="重積分と極限2015_3">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-01T14:08:13&#43;09:00'/><meta property='article:modified_time' content='2024-12-01T14:08:13&#43;09:00'/>
+<meta name="twitter:title" content="名大多元数理過去問[]">
+<meta name="twitter:description" content="2012年午後大門1">
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
   
@@ -240,7 +240,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/">名大多元数理過去問</a>
+            <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/">名大多元数理過去問[]</a>
         </h2>
     
         
@@ -282,7 +282,7 @@
     <section class="article-content">
     
     
-    <p><img src="/images/2015_3.PNG"
+    <p><img src="/images/2012_B_1.PNG"
 	
 	
 	
@@ -292,26 +292,34 @@
 	
 	
 ></p>
-<p><img src="/images/2015_3_1.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="description of the image"
-	
-	
-></p>
-<p><img src="/images/2015_3_2.jpg"
-	
-	
-	
-	loading="lazy"
-	
-		alt="description of the image"
-	
-	
-></p>
+<p>(1)
+$f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故:
+</p>
+$$
+det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0
+$$
+<p>
+であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).</p>
+<p>(2)
+$\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると:
+</p>
+$$
+\mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0}
+$$
+<p>
+となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す:
+</p>
+$$
+A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x
+$$
+<p>
+より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると:
+</p>
+$$
+\varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda)
+$$
+<p>
+であり固有多項式が一致する.</p>
 
 </section>
 
@@ -372,12 +380,12 @@
             
                 
 <article class="">
-    <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/">
+    <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">東大数理科学過去問</h2>
+            <h2 class="article-title">東大数理科学過去問[2]</h2>
         </div>
     </a>
 </article>
@@ -385,12 +393,12 @@
             
                 
 <article class="">
-    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/">
+    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">名大多元数理過去問</h2>
+            <h2 class="article-title">名大多元数理過去問[4]</h2>
         </div>
     </a>
 </article>
@@ -398,12 +406,12 @@
             
                 
 <article class="">
-    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/">
+    <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">名大多元数理過去問</h2>
+            <h2 class="article-title">東大数理科学過去問[1]</h2>
         </div>
     </a>
 </article>
@@ -411,12 +419,12 @@
             
                 
 <article class="">
-    <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/">
+    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">東大数理科学過去問</h2>
+            <h2 class="article-title">名大多元数理過去問[3]</h2>
         </div>
     </a>
 </article>
@@ -424,12 +432,12 @@
             
                 
 <article class="">
-    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/">
+    <a href="/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">名大多元数理過去問</h2>
+            <h2 class="article-title">名大多元数理過去問[2]</h2>
         </div>
     </a>
 </article>
@@ -588,7 +596,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.4a4d097839c98e6e52e8f8cf5050cbac18d3206dc8fc8c99199270f03b4907d1.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
