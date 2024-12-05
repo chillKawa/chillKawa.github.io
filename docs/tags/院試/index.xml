@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>院試 on Euleorz Blog</title>
+        <link>http://localhost:1313/tags/%E9%99%A2%E8%A9%A6/</link>
+        <description>Recent content in 院試 on Euleorz Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Sun, 01 Dec 2024 14:08:13 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>名大多元数理過去問</title>
+        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;img src="http://localhost:1313/images/2012_B_1.PNG" alt="Featured image of post 名大多元数理過去問" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2012_B_1.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;(1)
+$f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故:
+&lt;/p&gt;
+$$
+det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0
+$$
+&lt;p&gt;
+であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).&lt;/p&gt;
+&lt;p&gt;(2)
+$\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると:
+&lt;/p&gt;
+$$
+\mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0}
+$$
+&lt;p&gt;
+となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す:
+&lt;/p&gt;
+$$
+A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x
+$$
+&lt;p&gt;
+より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると:
+&lt;/p&gt;
+$$
+\varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda)
+$$
+&lt;p&gt;
+であり固有多項式が一致する.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

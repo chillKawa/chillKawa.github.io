@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>その他 on Euleorz Blog</title>
+        <link>https://Euleorz.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+        <description>Recent content in その他 on Euleorz Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Euleorz</copyright>
+        <lastBuildDate>Thu, 02 May 2024 13:17:18 +0900</lastBuildDate><atom:link href="https://Euleorz.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>このサイトについて</title>
+        <link>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Thu, 02 May 2024 13:17:18 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png" alt="Featured image of post このサイトについて" /&gt;&lt;p&gt;個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのと GO 言語を触ったことがあったので hugo というツールを使いました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;公式ウェブサイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Headless CMS とか使ってジャムスタックなサイトつくろうかな～とか思って, React と Contentful で結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMS みたいな選択肢もあります).&lt;/p&gt;
+&lt;p&gt;Static Site も Static Site で良さがあるのでしばらくは運用していこうと思いますが&amp;hellip;&lt;/p&gt;
+&lt;p&gt;あと, Markdown 記法でこの記事書いているのですが, Markdown 浅すぎてあんま活用できてないです.&lt;/p&gt;
+&lt;p&gt;というかいま記事書いてて思ったんですけど, 反映早くて滅茶苦茶いいっすね.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>テストです</title>
+        <link>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</link>
+        <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/fire-icon.png" alt="Featured image of post テストです" /&gt;&lt;h1 id=&#34;見出し&#34;&gt;見出し
+&lt;/h1&gt;&lt;p&gt;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

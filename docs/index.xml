@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Euleorz Blog</title>
+        <link>https://Euleorz.github.io/</link>
+        <description>Recent content on Euleorz Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Euleorz</copyright>
+        <lastBuildDate>Tue, 03 Dec 2024 17:34:31 +0900</lastBuildDate><atom:link href="https://Euleorz.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>東大数理科学過去問</title>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;指南書:&lt;/p&gt;
+&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R3_4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+$$
+I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx
+$$
+&lt;p&gt;とすると:&lt;/p&gt;
+$$
+\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{1}{2}Re(I_1-I_2)
+$$
+&lt;p&gt;である. 積分経路 $C_+$ を実数直線を通る上半円とする.&lt;/p&gt;
+&lt;p&gt;所謂, ジョルダンの不等式($\frac{2}{\pi}\le\frac{sin\theta}{\theta}\le 1\ where\ 0&amp;lt;\theta\le\frac{\pi}{2}$)から $a\ge0$ の時 ($R&amp;gt;0$):&lt;/p&gt;
+$$
+\left|\int_{0}^\pi \frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\ d\theta\right|\le \int_{0}^\pi \left|\frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\right|\ d\theta
+$$
+$$
+\le \int_{0}^\pi \frac{e^{-aR\sin\theta}}{R}\ d\theta\le2\int_{0}^\frac{\pi}{2} \frac{e^{-aR\frac{2\theta}{\pi}}}{R}\ d\theta=\frac{1}{Re^{\frac{2aR}{\pi}}}\int_0^{\pi} e^{-\theta}\ d\theta\to0\ (R\to \infty)
+$$
+&lt;p&gt;故:&lt;/p&gt;
+$$
+I_1 =\int_{C_+}\frac{e^{aiz}}{z^2}\ dz=\pi iRes(\frac{e^{aiz}}{z^2},0)=-\pi a
+$$
+&lt;p&gt;同様に $b\ge0$ なら:&lt;/p&gt;
+$$
+I_2=-\pi b
+$$
+&lt;p&gt;故に:&lt;/p&gt;
+$$
+\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(b-a)
+$$
+&lt;p&gt;同様に $a&amp;lt;0$ の時, $ax=-ax\ (a\neq0)$ と変換すると(下半円を選んでもいいのだが記述がめんどくさいので初等的な変形を行った):&lt;/p&gt;
+$$
+I_1=-\int_\infty^{-\infty}\frac{e^{-aix}}{x^2}\ dx=\int_{C_+}\frac{e^{-aiz}}{z^2}\ dz=\pi iRes(\frac{e^{-aiz}}{z^2},0)=a\pi
+$$
+&lt;p&gt;また $b&amp;lt;0$ に対しても同様に:&lt;/p&gt;
+$$
+I_2=b\pi
+$$
+&lt;p&gt;以上より:&lt;/p&gt;
+$$
+\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(|b|-|a|)
+$$
+</description>
+        </item>
+        <item>
+        <title>名大多元数理過去問</title>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2012_B_1.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;(1)
+$f$ 及び $g$ の行列表示を $A,B$ とする. $I$ を単位行列とすると $g\circ f\circ g^{-1}\circ f= id_V$ より $BAB^{-1}A=I$ 故:
+&lt;/p&gt;
+$$
+det(BAB^{-1}A)=det(A)^2=1\ \therefore det(A)\neq 0
+$$
+&lt;p&gt;
+であり $A$ は正則で $f$ は全単射($A^{-1}=BAB^{-1}$).&lt;/p&gt;
+&lt;p&gt;(2)
+$\lambda, x$ を $A$ の固有値と其れに対する固有ベクトルとする. $\lambda=0$ と仮定すると:
+&lt;/p&gt;
+$$
+\mathbf{0}\neq x=A^{-1}Ax=A^{-1}\lambda x=\mathbf{0}
+$$
+&lt;p&gt;
+となり矛盾. 次に $A^{-1}$ の固有値として $\lambda^{-1}$ が取れることを示す:
+&lt;/p&gt;
+$$
+A^{-1}x=\lambda^{-1}A^{-1}\lambda x=\lambda^{-1}A^{-1}Ax=\lambda^{-1}x
+$$
+&lt;p&gt;
+より良い. 所で相似な行列の固有値は等しいため $A$ は $\lambda^{-1}$ を固有値に持つ. 実際, $B$ は正則行列より固有多項式 $\varphi_{BAB^{-1}}(\lambda)$ を考えると:
+&lt;/p&gt;
+$$
+\varphi_{BAB^{-1}}(\lambda)=det(BAB^{-1}-\lambda I)=det(B)det(A-\lambda I)det(B^{-1})=\varphi_{A}(\lambda)
+$$
+&lt;p&gt;
+であり固有多項式が一致する.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>名大多元数理過去問</title>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Wed, 27 Nov 2024 20:50:43 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;2020年午後の部を最後の位相空間論以外やった、一番の自明な議論と留数の逆経路の計算は(清書がめんどくさかったので)省いた. 微分と積分の交換条件を確認できるサイトを添付しておく:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mathlandscape.com/int-diff-interchange/&#34;&gt;[https://mathlandscape.com/int-diff-interchange/]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>東大数理科学過去問</title>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;東大院試の過去問に関しては完全版:&lt;/p&gt;
+&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;がネットに転がっているので以降追加することは(多分)ないであろう.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1,2.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>名大多元数理過去問</title>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Tue, 26 Nov 2024 18:31:48 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;表現行列と固有値に関する問題である.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>名大多元数理過去問</title>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Sun, 24 Nov 2024 09:45:04 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;極値判定法の最も簡単な形の例である.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>良い部分圏の濃度</title>
+        <link>https://Euleorz.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</link>
+        <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/MS.png" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
+そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
+&lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
+&lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
+&lt;p&gt;ここで次の記法を用いる.&lt;/p&gt;
+&lt;p&gt;$wideA\colon$ wide subcategoryの集まり.&lt;/p&gt;
+&lt;p&gt;$torsA\colon$ torsion classの集まり.&lt;/p&gt;
+&lt;p&gt;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&lt;/p&gt;
+&lt;p&gt;$f$-$torsA\subset torsA\colon$ functorially finiteなtorsion classの集まり.&lt;/p&gt;
+&lt;p&gt;この時次が成り立つ:&lt;/p&gt;
+$$|wideA| \le |torsA|$$
+$$|f\text{-}torsA| \le |f\text{-}wideA|$$
+$$f\text{-}torsA \leftrightarrow \lbrace W\in f\text{-}wideA \mid filt(gen(W))\in f\text{-}torsA\rbrace $$
+&lt;p&gt;参考文献:
+F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, Bull. London Math. Soc. 49
+(2017), Issue 3, 405–416.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>名大多元数理過去問</title>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</link>
+        <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_1.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_2.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>準素イデアルについて</title>
+        <link>https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
+&lt;p&gt;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&lt;/p&gt;
+&lt;p&gt;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&lt;/p&gt;
+&lt;p&gt;所で Ass とかも松村とかの定義はあんまり好みじゃなくて.&lt;/p&gt;
+&lt;p&gt;$M\in\mathrm{mod}A$とする. この時, $M$の&lt;strong&gt;Associated prime&lt;/strong&gt;を;
+&lt;/p&gt;
+$$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$
+&lt;p&gt;とした方が好きです.　こうすると加群の埋め込みで統一出来て simple みたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていう inj.が取れて合成;
+&lt;/p&gt;
+$$A/\mathfrak{p}\to N\hookrightarrow M$$
+&lt;p&gt;
+を考えたらいいですね.&lt;/p&gt;
+&lt;h2 id=&#34;良い証明&#34;&gt;良い証明
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なので filtration に出てくる prime は極大で加群的に見たら$A/\mathfrak{p}_i$は simple だから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ が semisimple なので良いです(ちゃんというと radical は冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子は semisimple になるから(semisimple 上の加群なので)).&lt;/p&gt;
+&lt;p&gt;準素イデアル分解の 1st uni. thm.も加群レベルですぐ見れて;&lt;/p&gt;
+&lt;p&gt;$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
+&lt;p&gt;irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
+&lt;p&gt;一応置いておく(これは元を取っている;;)
+&lt;img src=&#34;https://Euleorz.github.io/images/lemma_primary.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;あと短完全列で Ass が Supp みたいに振舞うのも pull back 取ったらすぐわかります.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>このサイトについて</title>
+        <link>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Thu, 02 May 2024 13:17:18 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png" alt="Featured image of post このサイトについて" /&gt;&lt;p&gt;個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのと GO 言語を触ったことがあったので hugo というツールを使いました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;公式ウェブサイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Headless CMS とか使ってジャムスタックなサイトつくろうかな～とか思って, React と Contentful で結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMS みたいな選択肢もあります).&lt;/p&gt;
+&lt;p&gt;Static Site も Static Site で良さがあるのでしばらくは運用していこうと思いますが&amp;hellip;&lt;/p&gt;
+&lt;p&gt;あと, Markdown 記法でこの記事書いているのですが, Markdown 浅すぎてあんま活用できてないです.&lt;/p&gt;
+&lt;p&gt;というかいま記事書いてて思ったんですけど, 反映早くて滅茶苦茶いいっすね.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>テストです</title>
+        <link>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</link>
+        <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
+        
+        <guid>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/fire-icon.png" alt="Featured image of post テストです" /&gt;&lt;h1 id=&#34;見出し&#34;&gt;見出し
+&lt;/h1&gt;&lt;p&gt;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://Euleorz.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://Euleorz.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://Euleorz.github.io/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Euleorz.github.io/about/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://Euleorz.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://Euleorz.github.io/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
