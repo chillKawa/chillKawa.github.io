@@ -14,7 +14,8 @@
         
         <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;指南書:&lt;/p&gt;
-&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R3_4.png&#34;
 	
@@ -26,7 +27,8 @@
 	
 	
 &gt;&lt;/p&gt;
-$$
+&lt;h1 id=&#34;proof&#34;&gt;proof
+&lt;/h1&gt;$$
 I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx
 $$
 &lt;p&gt;とすると:&lt;/p&gt;
@@ -210,7 +212,8 @@ $$
         
         <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
         <description>&lt;p&gt;東大院試の過去問に関しては完全版:&lt;/p&gt;
-&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;がネットに転がっているので以降追加することは(多分)ないであろう.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1,2.PNG&#34;
 	

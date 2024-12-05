@@ -25,7 +25,7 @@ $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\math
 $$A/\mathfrak{p}\to N\hookrightarrow M$$
 を考えたらいいですね.
 
-## 良い証明
+# 良い証明
 
 ![description of the image](/images/prime_fil.PNG)
 

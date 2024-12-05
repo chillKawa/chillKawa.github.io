@@ -29,8 +29,8 @@
 &lt;p&gt;勿論アンコールというものがあるものでそこでは:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Brahmsの118-2&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;が演奏されていた. 言わずもがな最高の選曲である. 辛いときに寄り添ってくれるような優しく, 寄りかかれる複雑さを持った曲であると思う. Harliono氏の繊細なタッチが輝く選曲でとても楽しめた.&lt;/p&gt;
-&lt;h3 id=&#34;氏のxアカウントを張っておく&#34;&gt;氏のXアカウントを張っておく:
-&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;twitter-timeline&#34; data-width=&#34;500&#34; data-height=&#34;400&#34; data-theme=&#34;dark&#34; href=&#34;https://twitter.com/georgeharliono?ref_src=twsrc%5Etfw&#34;&gt;Tweets by georgeharliono&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1 id=&#34;氏のxアカウントを張っておく&#34;&gt;氏のXアカウントを張っておく:
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;twitter-timeline&#34; data-width=&#34;500&#34; data-height=&#34;400&#34; data-theme=&#34;dark&#34; href=&#34;https://twitter.com/georgeharliono?ref_src=twsrc%5Etfw&#34;&gt;Tweets by georgeharliono&lt;/a&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -40,7 +40,8 @@
         
         <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;指南書:&lt;/p&gt;
-&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R3_4.png&#34;
 	
@@ -52,7 +53,8 @@
 	
 	
 &gt;&lt;/p&gt;
-$$
+&lt;h1 id=&#34;proof&#34;&gt;proof
+&lt;/h1&gt;$$
 I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx
 $$
 &lt;p&gt;とすると:&lt;/p&gt;
@@ -236,7 +238,8 @@ $$
         
         <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
         <description>&lt;p&gt;東大院試の過去問に関しては完全版:&lt;/p&gt;
-&lt;p&gt;&lt;a  href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0&#34;&gt;[https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;がネットに転がっているので以降追加することは(多分)ないであろう.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1,2.PNG&#34;
 	
@@ -348,7 +351,7 @@ $$
 そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
 &lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
 &lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
-&lt;p&gt;ここで次の記法を用いる.&lt;/p&gt;
+&lt;p&gt;ここで次の記法を用いる:&lt;/p&gt;
 &lt;p&gt;$wideA\colon$ wide subcategoryの集まり.&lt;/p&gt;
 &lt;p&gt;$torsA\colon$ torsion classの集まり.&lt;/p&gt;
 &lt;p&gt;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&lt;/p&gt;
@@ -418,8 +421,8 @@ $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\math
 $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;
 を考えたらいいですね.&lt;/p&gt;
-&lt;h2 id=&#34;良い証明&#34;&gt;良い証明
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
+&lt;h1 id=&#34;良い証明&#34;&gt;良い証明
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
 	
 	
 	
@@ -486,7 +489,14 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://Euleorz.github.io/about/</guid>
-        <description></description>
+        <description>&lt;p&gt;&lt;strong&gt;連絡先&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mail: euleorz[at]gmail.com&lt;/li&gt;
+&lt;li&gt;X: &lt;a class=&#34;link&#34; href=&#34;&#34; &gt;現在運用していません&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instagram: &lt;a class=&#34;link&#34; href=&#34;&#34; &gt;現在運用していません&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discord: chill_kawa_&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         </item>
         <item>
         <title>Search</title>

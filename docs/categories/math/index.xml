@@ -17,7 +17,7 @@
 そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
 &lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
 &lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
-&lt;p&gt;ここで次の記法を用いる.&lt;/p&gt;
+&lt;p&gt;ここで次の記法を用いる:&lt;/p&gt;
 &lt;p&gt;$wideA\colon$ wide subcategoryの集まり.&lt;/p&gt;
 &lt;p&gt;$torsA\colon$ torsion classの集まり.&lt;/p&gt;
 &lt;p&gt;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&lt;/p&gt;
@@ -49,8 +49,8 @@ $$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\math
 $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;
 を考えたらいいですね.&lt;/p&gt;
-&lt;h2 id=&#34;良い証明&#34;&gt;良い証明
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
+&lt;h1 id=&#34;良い証明&#34;&gt;良い証明
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
 	
 	
 	

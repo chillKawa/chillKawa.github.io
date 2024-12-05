@@ -16,3 +16,8 @@ menu:
 ---
 
 
+**連絡先**
+- mail: euleorz[at]gmail.com
+- X: [現在運用していません]()
+- Instagram: [現在運用していません]()
+- Discord: chill_kawa_
