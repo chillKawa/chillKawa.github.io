@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Music on Euleorz Blog</title>
+        <link>http://localhost:1313/tags/music/</link>
+        <description>Recent content in Music on Euleorz Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Euleorz</copyright>
+        <lastBuildDate>Thu, 05 Dec 2024 19:38:21 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>20241205</title>
+        <link>http://localhost:1313/20241205/</link>
+        <pubDate>Thu, 05 Dec 2024 19:38:21 +0900</pubDate>
+        
+        <guid>http://localhost:1313/20241205/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
