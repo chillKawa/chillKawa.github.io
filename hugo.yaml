@@ -1,8 +1,8 @@
-baseurl: https://Euleorz.github.io
+baseurl: https://ankailue.github.io
 languageCode: ja
 theme: hugo-theme-stack
-title: Euleorz Blog
-copyright: Euleorz
+title: テロめ Blog
+copyright: テロめ
 
 publishDir: docs
 
@@ -20,7 +20,7 @@ enableRobotsTXT: false
 
 languages:
     en:
-        languageName: English
+        languageName: Japanese
         title: テロめ
         weight: 1
         params:
