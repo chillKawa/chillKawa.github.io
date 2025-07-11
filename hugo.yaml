@@ -63,7 +63,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: /images/icon.png
+            src: /images/icon1.png
 
 
     article:

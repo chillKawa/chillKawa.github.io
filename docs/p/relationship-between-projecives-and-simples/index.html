@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="A はネーター環として">
-<title>準素イデアルについて</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="有限次元多元環の表現論において常識である: $$\\lbrace \\text{projective module}\\rbrace\\leftrightarrow\\lbrace \\text{simple module}\\rbrace $$ を説明する( $A$ をf.d. 多元環とする). 以降 $M\\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする. 余談だが極大部分加群によるquotientがsimpleになることから: $$\rradM=\\lbrace m\\in M\\mid \\forall f\\in Hom_A(M,S\\colon\\text{simple}),\\ f(m)=0\\rbrace\r$$ が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[https://ankailue.github.io/primary_ideal/]を参照.) 当然 $S\\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり). 先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す. $M\\in modA\\colon$ semisimpleとする. $L\\subset M$ がsimpleであれば示すべきことはないので $K\\in L$ が取れる. ここでsemisimple性より $M=L\\oplus L&rsquo;=K\\oplus K&rsquo;$ と書ける. $J=L\\cap K&rsquo;$ とすると $L=K\\oplus J$ と書けるので良い(元を取れば分かる). semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう: ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.">
+<title>relationship between projecives and simples</title>
 
-<link rel='canonical' href='https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/'>
+<link rel='canonical' href='http://localhost:1313/p/relationship-between-projecives-and-simples/'>
 
-<link rel="stylesheet" href="/scss/style.min.95d8af31f9feb96efe2f82ef4fb4e6cbbf9f26b7a227ad7e78ef7ca7b74d000f.css"><meta property='og:title' content="準素イデアルについて">
-<meta property='og:description' content="A はネーター環として">
-<meta property='og:url' content='https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/'>
+<link rel="stylesheet" href="/scss/style.min.95d8af31f9feb96efe2f82ef4fb4e6cbbf9f26b7a227ad7e78ef7ca7b74d000f.css"><meta property='og:title' content="relationship between projecives and simples">
+<meta property='og:description' content="有限次元多元環の表現論において常識である: $$\\lbrace \\text{projective module}\\rbrace\\leftrightarrow\\lbrace \\text{simple module}\\rbrace $$ を説明する( $A$ をf.d. 多元環とする). 以降 $M\\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする. 余談だが極大部分加群によるquotientがsimpleになることから: $$\rradM=\\lbrace m\\in M\\mid \\forall f\\in Hom_A(M,S\\colon\\text{simple}),\\ f(m)=0\\rbrace\r$$ が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[https://ankailue.github.io/primary_ideal/]を参照.) 当然 $S\\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり). 先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す. $M\\in modA\\colon$ semisimpleとする. $L\\subset M$ がsimpleであれば示すべきことはないので $K\\in L$ が取れる. ここでsemisimple性より $M=L\\oplus L&rsquo;=K\\oplus K&rsquo;$ と書ける. $J=L\\cap K&rsquo;$ とすると $L=K\\oplus J$ と書けるので良い(元を取れば分かる). semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう: ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.">
+<meta property='og:url' content='http://localhost:1313/p/relationship-between-projecives-and-simples/'>
 <meta property='og:site_name' content='テロめ'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-05-02T13:39:48&#43;09:00'/><meta property='article:modified_time' content='2024-05-02T13:39:48&#43;09:00'/><meta property='og:image' content='https://Euleorz.github.io/images/prime_fil.PNG' />
-<meta name="twitter:title" content="準素イデアルについて">
-<meta name="twitter:description" content="A はネーター環として"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://Euleorz.github.io/images/prime_fil.PNG' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-28T12:55:22&#43;09:00'/><meta property='article:modified_time' content='2024-11-28T12:55:22&#43;09:00'/><meta property='og:image' content='http://localhost:1313/images/ASS_3.3.PNG' />
+<meta name="twitter:title" content="relationship between projecives and simples">
+<meta name="twitter:description" content="有限次元多元環の表現論において常識である: $$\\lbrace \\text{projective module}\\rbrace\\leftrightarrow\\lbrace \\text{simple module}\\rbrace $$ を説明する( $A$ をf.d. 多元環とする). 以降 $M\\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする. 余談だが極大部分加群によるquotientがsimpleになることから: $$\rradM=\\lbrace m\\in M\\mid \\forall f\\in Hom_A(M,S\\colon\\text{simple}),\\ f(m)=0\\rbrace\r$$ が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[https://ankailue.github.io/primary_ideal/]を参照.) 当然 $S\\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり). 先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す. $M\\in modA\\colon$ semisimpleとする. $L\\subset M$ がsimpleであれば示すべきことはないので $K\\in L$ が取れる. ここでsemisimple性より $M=L\\oplus L&rsquo;=K\\oplus K&rsquo;$ と書ける. $J=L\\cap K&rsquo;$ とすると $L=K\\oplus J$ と書けるので良い(元を取れば分かる). semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう: ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/images/ASS_3.3.PNG' />
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
   
@@ -176,6 +176,25 @@
         
         
         <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>人類が聴くべき音楽</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/search/' >
                 
                 
@@ -228,9 +247,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
+            <a href="/p/relationship-between-projecives-and-simples/">
                 
-                    <img src="/images/prime_fil.PNG" loading="lazy" alt="Featured image of post 準素イデアルについて" />
+                    <img src="/images/ASS_3.3.PNG" loading="lazy" alt="Featured image of post relationship between projecives and simples" />
                 
             </a>
         </div>
@@ -244,8 +263,8 @@
                 Math
             </a>
         
-            <a href="/categories/%E7%92%B0%E8%AB%96/" >
-                環論
+            <a href="/categories/algebra/" >
+                Algebra
             </a>
         
     </header>
@@ -253,13 +272,9 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">準素イデアルについて</a>
+            <a href="/p/relationship-between-projecives-and-simples/">relationship between projecives and simples</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            A はネーター環として
-        </h3>
         
     </div>
 
@@ -279,7 +294,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">May 02, 2024</time>
+                <time class="article-time--published">Nov 28, 2024</time>
             </div>
         
 
@@ -295,20 +310,22 @@
     <section class="article-content">
     
     
-    <p>準素イデアルの定義ってどんなものを採用してますか?</p>
-<p>私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.</p>
-<p>なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.</p>
-<p>所で Ass とかも松村とかの定義はあんまり好みじゃなくて.</p>
-<p>$M\in\mathrm{mod}A$とする. この時, $M$の<strong>Associated prime</strong>を;
-</p>
-$$\mathrm{Ass}_AM=\lbrace\mathfrak{p}\in\mathrm{Spec}A\mid\exists\varphi\in\mathrm{Hom}_A(A/\mathfrak{p},M):\text{inj.}\rbrace$$
-<p>とした方が好きです.　こうすると加群の埋め込みで統一出来て simple みたいに扱えるので気分がいいです. 例えば $N\subset M$ に対して $\mathrm{Ass}N\subset\mathrm{Ass}M$とかが直感で分かります. 一応ちゃんと見ると, $\mathfrak{p}\in\mathrm{Ass}N$ に対して $A/\mathfrak{p}\to N$ っていう inj.が取れて合成;
-</p>
-$$A/\mathfrak{p}\to N\hookrightarrow M$$
-<p>
-を考えたらいいですね.</p>
-<h1 id="良い証明">良い証明
-</h1><p><img src="/images/prime_fil.PNG"
+    <p>有限次元多元環の表現論において常識である:</p>
+$$\lbrace \text{projective module}\rbrace\leftrightarrow\lbrace \text{simple module}\rbrace $$
+<p>を説明する( $A$ をf.d. 多元環とする). 以降 $M\in modA$ に対して $radM$ を $M$ の極大部分加群の共通部分とする.</p>
+<p>余談だが極大部分加群によるquotientがsimpleになることから:</p>
+$$
+radM=\lbrace m\in M\mid \forall f\in Hom_A(M,S\colon\text{simple}),\ f(m)=0\rbrace
+$$
+<p>が成り立つ(こっちの定義のほうが筋がいい気がする, 別記事→[<a class="link" href="https://ankailue.github.io/primary_ideal/"  target="_blank" rel="noopener"
+    >https://ankailue.github.io/primary_ideal/</a>]を参照.)</p>
+<p>当然 $S\in modA$ がsimpleであるとは $S$ が非自明な部分加群を持たないことをいい, semisimpleは任意の部分加群が直和因子となることをいう(後に言及あり).</p>
+<p>先ずはsemisimpleの部分加群及び剰余加群が再びsemisimpleであることを示す.</p>
+<p>$M\in modA\colon$ semisimpleとする.</p>
+<p>$L\subset M$ がsimpleであれば示すべきことはないので $K\in L$ が取れる. ここでsemisimple性より $M=L\oplus L&rsquo;=K\oplus K&rsquo;$ と書ける.</p>
+<p>$J=L\cap K&rsquo;$ とすると $L=K\oplus J$ と書けるので良い(元を取れば分かる).</p>
+<p>semisimple宗派(semisimpleとはsimpleの直和であるヴァーサス-(勿論多元環の表現論の人間であればそれが良い気がする))戦争に備えて[ASS]の証明を引用しておこう:
+<img src="/images/ASS_3.3.PNG"
 	
 	
 	
@@ -318,22 +335,10 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 	
 	
 ></p>
-<p>ってのがあって, これを見ると$0$次元ネーターがアルティンってのは明らかです. 実際, $0$次元なので filtration に出てくる prime は極大で加群的に見たら$A/\mathfrak{p}_i$は simple だから組成列になってて分かります. 逆も $A/\mathrm{rad}A$ が semisimple なので良いです(ちゃんというと radical は冪零なので $A\supset\mathrm{rad}A\supset\dots\supset\mathrm{rad}^nA=0$ でこの組成因子は semisimple になるから(semisimple 上の加群なので)).</p>
-<p>準素イデアル分解の 1st uni. thm.も加群レベルですぐ見れて;</p>
-<p>$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
-<p>irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.</p>
-<p>一応置いておく(これは元を取っている;;)
-<img src="/images/lemma_primary.PNG"
-	
-	
-	
-	loading="lazy"
-	
-		alt="description of the image"
-	
-	
-></p>
-<p>あと短完全列で Ass が Supp みたいに振舞うのも pull back 取ったらすぐわかります.</p>
+<p>ここで有限次元多元環Aに対して $A/radA$ はsemisimpleになる(ほぼ中国剰余定理)よって $M\in modA$ を取ると $M/radM=M/MradA$ (radM=MradAは有限次元多元環A上の有限生成加群特有なハズ)を見るとこれは $A/radA$ から全射が生えるのでsemisimple.</p>
+<p>ここで $P\in modA\colon$ projectiveを直既約として取ると $P/radP$ はsimpleである. この証明にはprojective coverの存在を使うとうまくいく(一般にはこれは存在しない, 局所ネーター環やアルティン環上の有限生成加群に対しては存在する). 実際simpleでないとすると, semisimpleではあるので $P/radP=N\oplus M$ と書ける.</p>
+<p>ここで $N$ 及び $M$ のprojective coverを $P(N), P(M)$ と書くと $P\to P/radP$ はprojective coverだから $P=P(N)\oplus P(M)$ であるから直既約に矛盾.</p>
+<p>↑いつか所定義と示すべきことをちゃんとやってまとめなおす.</p>
 
 </section>
 
@@ -406,6 +411,25 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 
         <div class="article-details">
             <h2 class="article-title">良い部分圏の濃度</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/prime_fil.PNG" loading="lazy" data-key="" data-hash="/images/prime_fil.PNG"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">準素イデアルについて</h2>
         </div>
     </a>
 </article>
@@ -515,7 +539,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.4a4d097839c98e6e52e8f8cf5050cbac18d3206dc8fc8c99199270f03b4907d1.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

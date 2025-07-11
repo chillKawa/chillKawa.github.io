@@ -1,7 +1,7 @@
 +++
 title = 'このサイトについて'
 date = 2024-05-02T13:17:18+09:00
-draft = false
+draft = true
 description = "このサイトは「Hugo」で作りました"
 image = "/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png"
 imageBig = "/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png"
