@@ -2,110 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on テロめ</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://Euleorz.github.io/post/</link>
         <description>Recent content in Posts on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Euleorz</copyright>
-        <lastBuildDate>Mon, 10 Mar 2025 08:52:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>東大数理科学過去問[3]</title>
-        <link>http://localhost:1313/p/h31/</link>
-        <pubDate>Mon, 10 Mar 2025 08:52:31 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/h31/</guid>
-        <description>&lt;h1 id=&#34;pdf&#34;&gt;pdf
-&lt;/h1&gt;&lt;!-- scriptタグでライブラリを読み込み --&gt;
-&lt;embed src=&#34;http://localhost:1313/pdf/0528A.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;700px&#34;&gt;
-&lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&#34;&gt;&lt;/script&gt;
-&lt;h1 id=&#34;解答&#34;&gt;解答
-&lt;/h1&gt;&lt;h2 id=&#34;1&#34;&gt;1
-&lt;/h2&gt;&lt;h3 id=&#34;1-1&#34;&gt;(1)
-&lt;/h3&gt;&lt;p&gt;連続関数である事とロピタルの定理より:
-&lt;/p&gt;
-$$
-        \lim_{x\to 0}\left( \frac{\log(1+x)}{x} \right)^{\frac{1}{2}} = \left(\lim_{x\to 0} \frac{\log(1+x)}{x} \right)^{\frac{1}{2}} = \left(\lim_{x\to 0} \frac{\frac{1}{x+1}}{1} \right)^{\frac{1}{2}}=1
-    $$
-&lt;h3 id=&#34;2&#34;&gt;(2)
-&lt;/h3&gt;&lt;p&gt;計算する:
-&lt;/p&gt;
-$$
-        \lim_{h\to 0}\frac{f(h)-f(0)}{h} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h} \right)^{\frac{1}{2}}-1}{h} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h}\right)-1}{h\left( \frac{\log(1+h)}{h}\right)} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h}\right)-1}{\log(1+h)}
-    $$
-</description>
-        </item>
-        <item>
-        <title>位相空間論院試</title>
-        <link>http://localhost:1313/p/20241213/</link>
-        <pubDate>Fri, 13 Dec 2024 16:35:41 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/20241213/</guid>
-        <description>&lt;h2 id=&#34;東大h16&#34;&gt;東大H16
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/H16_A_3.PNG&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;description of the image&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;東大h17&#34;&gt;東大H17
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/H17_A_3.PNG&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;description of the image&#34;
-	
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>2004_B_4</title>
-        <link>http://localhost:1313/p/2004_b_4/</link>
-        <pubDate>Thu, 12 Dec 2024 17:56:21 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/2004_b_4/</guid>
-        <description>&lt;p&gt;巡回群であると仮定すると $-1\in A^\times$ より $(-1)^{p^2}=1$ であり $p\neq2$ より $(-1)^{p^2}=-1$ 故に $2=0$.&lt;/p&gt;
-&lt;p&gt;よって $char(A)=2$ である.  $A^\times$ の生成元を $g$ とすると, $(F_2[g])^\times = A^\times$.&lt;/p&gt;
-&lt;p&gt;ここで自然な全射 $\pi\colon F_2[X]\to F_2[g]$ を考えると体上の多項式環はPIDだからある多項式 $h$ があって $F_2[X]/(h(X))\cong F_2[g]$ となる.&lt;/p&gt;
-&lt;p&gt;また $h(X)=h_1(X)h_2(X)\dots h_n(X)$ と既約分解すると:
-&lt;/p&gt;
-$$
-F_2[X]/(h(X))\cong F_2[X]/(h_1(X))\times F_2[X]/(h_2(X)) \times\dots\times F_2[X]/(h_n(X))\cong F_{2^{deg(h_1)}}\times\dots\times F_{2^{deg(h_n)}}
-$$
-&lt;p&gt;
-である. ここで:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))^\times\cong (F_{2^{deg(h_1)}}\times\dots\times F_{2^{deg(h_n)}})^\times\cong F_{2^{deg(h_1)}}^\times\times\dots\times F_{2^{deg(h_n)}}^\times
-$$
-&lt;p&gt;
-であるが, $A^\times$ の位数が $p^2$ である事から $deg(h_i)\ s.t.\ 2^{deg(h_j)}-1=p^2$ となるある $i$ が取れて:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))\cong F_{2^{deg(h_i)}}\times F_2^n
-$$
-&lt;p&gt;
-もしくは $deg(h_i)=deg(h_j)\ s.t.\ 2^{deg(h_j)}-1=p$ に対して:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))\cong F_{2^{deg(h_i)}}\times F_{2^{deg(h_j)}}\times F_2^n\ 
-$$
-&lt;p&gt;
-である必要がある(実際, それ以外だと単元群と環の直積が可換なことより $A^\times$ の位数が $p^2$ となり得ない).  $deg(h_i)\ s.t.\ 2^{deg(h_j)}-1=p^2$ の時 $mod\ 4$ を考えれば $p\geq 3$ から成り立たないことが分かり, $deg(h_i)=deg(h_j)\ s.t.\ 2^{deg(h_j)}-1=p$ の時は $A^\times\cong (Z/pZ)^2$となり巡回群となり得ない.&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 05 Dec 2024 19:38:21 +0900</lastBuildDate><atom:link href="https://Euleorz.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>George Harliono氏の演奏を聴いて</title>
-        <link>http://localhost:1313/p/20241205/</link>
+        <link>https://Euleorz.github.io/p/20241205/</link>
         <pubDate>Thu, 05 Dec 2024 19:38:21 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/20241205/</guid>
-        <description>&lt;img src="http://localhost:1313/images/GLiCSxAaQAAqiUz.jpg" alt="Featured image of post George Harliono氏の演奏を聴いて" /&gt;&lt;p&gt;2024年11月28日にサントリーホールで氏の演奏会に行ってきた感想をば.&lt;/p&gt;
+        <guid>https://Euleorz.github.io/p/20241205/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/GLiCSxAaQAAqiUz.jpg" alt="Featured image of post George Harliono氏の演奏を聴いて" /&gt;&lt;p&gt;2024年11月28日にサントリーホールで氏の演奏会に行ってきた感想をば.&lt;/p&gt;
 &lt;p&gt;演目としては:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -127,15 +35,15 @@ $$
         </item>
         <item>
         <title>東大数理科学過去問[2]</title>
-        <link>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
         <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;指南書:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R3_4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R3_4.png&#34;
 	
 	
 	
@@ -189,11 +97,11 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[5]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</link>
         <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2012_B_1.PNG&#34;
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2012_B_1.PNG&#34;
 	
 	
 	
@@ -235,15 +143,15 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[4]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</link>
         <pubDate>Wed, 27 Nov 2024 20:50:43 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</guid>
         <description>&lt;p&gt;2020年午後の部を最後の位相空間論以外やった、一番の自明な議論と留数の逆経路の計算は(清書がめんどくさかったので)省いた. 微分と積分の交換条件を確認できるサイトを添付しておく:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mathlandscape.com/int-diff-interchange/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;数学の景色&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門1&#34;&gt;大門1
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_1.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.PNG&#34;
 	
 	
 	
@@ -253,7 +161,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.jpg&#34;
 	
 	
 	
@@ -264,7 +172,7 @@ $$
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門2&#34;&gt;大門2
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2.PNG&#34;
 	
 	
 	
@@ -274,7 +182,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_1.jpg&#34;
 	
 	
 	
@@ -284,7 +192,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_2.jpg&#34;
 	
 	
 	
@@ -295,7 +203,7 @@ $$
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門3&#34;&gt;大門3
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3.PNG&#34;
 	
 	
 	
@@ -305,7 +213,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_1.jpg&#34;
 	
 	
 	
@@ -315,7 +223,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_2.jpg&#34;
 	
 	
 	
@@ -329,15 +237,15 @@ $$
         </item>
         <item>
         <title>東大数理科学過去問[1]</title>
-        <link>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
         <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
         <description>&lt;p&gt;東大院試の過去問に関しては完全版:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;がネットに転がっているので以降追加することは(多分)ないであろう.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_1,2.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1,2.PNG&#34;
 	
 	
 	
@@ -347,7 +255,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1.jpg&#34;
 	
 	
 	
@@ -357,7 +265,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_2.jpg&#34;
 	
 	
 	
@@ -371,12 +279,12 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[3]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</link>
         <pubDate>Tue, 26 Nov 2024 18:31:48 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</guid>
         <description>&lt;p&gt;表現行列と固有値に関する問題である.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1.PNG&#34;
 	
 	
 	
@@ -386,7 +294,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_1.jpg&#34;
 	
 	
 	
@@ -396,7 +304,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_2.jpg&#34;
 	
 	
 	
@@ -410,12 +318,12 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[2]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
         <pubDate>Sun, 24 Nov 2024 09:45:04 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;極値判定法の最も簡単な形の例である.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014_3.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3.PNG&#34;
 	
 	
 	
@@ -425,7 +333,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3_1.jpg&#34;
 	
 	
 	
@@ -439,11 +347,11 @@ $$
         </item>
         <item>
         <title>良い部分圏の濃度</title>
-        <link>http://localhost:1313/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</link>
+        <link>https://Euleorz.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
-        <description>&lt;img src="http://localhost:1313/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
+        <guid>https://Euleorz.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
 そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
 &lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
 &lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがright $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
@@ -464,11 +372,11 @@ F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, B
         </item>
         <item>
         <title>名大多元数理過去問[1]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
         <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3.PNG&#34;
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3.PNG&#34;
 	
 	
 	
@@ -478,7 +386,7 @@ F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, B
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_1.jpg&#34;
 	
 	
 	
@@ -488,7 +396,7 @@ F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, B
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_2.jpg&#34;
 	
 	
 	
@@ -502,11 +410,11 @@ F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, B
         </item>
         <item>
         <title>準素イデアルについて</title>
-        <link>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <link>https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
         <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-        <description>&lt;img src="http://localhost:1313/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
+        <guid>https://Euleorz.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
 &lt;p&gt;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&lt;/p&gt;
 &lt;p&gt;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&lt;/p&gt;
 &lt;p&gt;所で Ass とかも松村とかの定義はあんまり好みじゃなくて.&lt;/p&gt;
@@ -519,7 +427,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;
 を考えたらいいですね.&lt;/p&gt;
 &lt;h1 id=&#34;良い証明&#34;&gt;良い証明
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/prime_fil.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/prime_fil.PNG&#34;
 	
 	
 	
@@ -534,7 +442,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;一応置いておく(これは元を取っている;;)
-&lt;img src=&#34;http://localhost:1313/images/lemma_primary.PNG&#34;
+&lt;img src=&#34;https://Euleorz.github.io/images/lemma_primary.PNG&#34;
 	
 	
 	
@@ -549,11 +457,11 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
         </item>
         <item>
         <title>このサイトについて</title>
-        <link>http://localhost:1313/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <link>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
         <pubDate>Thu, 02 May 2024 13:17:18 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-        <description>&lt;img src="http://localhost:1313/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png" alt="Featured image of post このサイトについて" /&gt;&lt;p&gt;個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのと GO 言語を触ったことがあったので hugo というツールを使いました。&lt;/p&gt;
+        <guid>https://Euleorz.github.io/p/%E3%81%93%E3%81%AE%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/9d3d8200-abf2-11e9-803c-4cdfde0d22e5.png" alt="Featured image of post このサイトについて" /&gt;&lt;p&gt;個人ブログを作るにあたっていくつか選択手があったんですが, そんな時間がなかったのと GO 言語を触ったことがあったので hugo というツールを使いました。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;公式ウェブサイト&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Headless CMS とか使ってジャムスタックなサイトつくろうかな～とか思って, React と Contentful で結構なところまで実装したのでやる気が戻ったらサイト移行の可能性があります(Hugo + Headless CMS みたいな選択肢もあります).&lt;/p&gt;
@@ -564,11 +472,11 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
         </item>
         <item>
         <title>テストです</title>
-        <link>http://localhost:1313/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</link>
+        <link>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</link>
         <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</guid>
-        <description>&lt;img src="http://localhost:1313/images/fire-icon.png" alt="Featured image of post テストです" /&gt;&lt;h1 id=&#34;見出し&#34;&gt;見出し
+        <guid>https://Euleorz.github.io/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</guid>
+        <description>&lt;img src="https://Euleorz.github.io/images/fire-icon.png" alt="Featured image of post テストです" /&gt;&lt;h1 id=&#34;見出し&#34;&gt;見出し
 &lt;/h1&gt;&lt;p&gt;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.&lt;/p&gt;
 </description>
         </item>

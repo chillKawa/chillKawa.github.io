@@ -2,114 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>院試 on テロめ</title>
-        <link>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</link>
+        <link>https://Euleorz.github.io/categories/%E9%99%A2%E8%A9%A6/</link>
         <description>Recent content in 院試 on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Euleorz</copyright>
-        <lastBuildDate>Mon, 10 Mar 2025 08:52:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>東大数理科学過去問[3]</title>
-        <link>http://localhost:1313/p/h31/</link>
-        <pubDate>Mon, 10 Mar 2025 08:52:31 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/h31/</guid>
-        <description>&lt;h1 id=&#34;pdf&#34;&gt;pdf
-&lt;/h1&gt;&lt;!-- scriptタグでライブラリを読み込み --&gt;
-&lt;embed src=&#34;http://localhost:1313/pdf/0528A.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;700px&#34;&gt;
-&lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&#34;&gt;&lt;/script&gt;
-&lt;h1 id=&#34;解答&#34;&gt;解答
-&lt;/h1&gt;&lt;h2 id=&#34;1&#34;&gt;1
-&lt;/h2&gt;&lt;h3 id=&#34;1-1&#34;&gt;(1)
-&lt;/h3&gt;&lt;p&gt;連続関数である事とロピタルの定理より:
-&lt;/p&gt;
-$$
-        \lim_{x\to 0}\left( \frac{\log(1+x)}{x} \right)^{\frac{1}{2}} = \left(\lim_{x\to 0} \frac{\log(1+x)}{x} \right)^{\frac{1}{2}} = \left(\lim_{x\to 0} \frac{\frac{1}{x+1}}{1} \right)^{\frac{1}{2}}=1
-    $$
-&lt;h3 id=&#34;2&#34;&gt;(2)
-&lt;/h3&gt;&lt;p&gt;計算する:
-&lt;/p&gt;
-$$
-        \lim_{h\to 0}\frac{f(h)-f(0)}{h} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h} \right)^{\frac{1}{2}}-1}{h} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h}\right)-1}{h\left( \frac{\log(1+h)}{h}\right)} = \lim_{h\to 0}\frac{\left( \frac{\log(1+h)}{h}\right)-1}{\log(1+h)}
-    $$
-</description>
-        </item>
-        <item>
-        <title>位相空間論院試</title>
-        <link>http://localhost:1313/p/20241213/</link>
-        <pubDate>Fri, 13 Dec 2024 16:35:41 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/20241213/</guid>
-        <description>&lt;h2 id=&#34;東大h16&#34;&gt;東大H16
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/H16_A_3.PNG&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;description of the image&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;東大h17&#34;&gt;東大H17
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/H17_A_3.PNG&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;description of the image&#34;
-	
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>2004_B_4</title>
-        <link>http://localhost:1313/p/2004_b_4/</link>
-        <pubDate>Thu, 12 Dec 2024 17:56:21 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/2004_b_4/</guid>
-        <description>&lt;p&gt;巡回群であると仮定すると $-1\in A^\times$ より $(-1)^{p^2}=1$ であり $p\neq2$ より $(-1)^{p^2}=-1$ 故に $2=0$.&lt;/p&gt;
-&lt;p&gt;よって $char(A)=2$ である.  $A^\times$ の生成元を $g$ とすると, $(F_2[g])^\times = A^\times$.&lt;/p&gt;
-&lt;p&gt;ここで自然な全射 $\pi\colon F_2[X]\to F_2[g]$ を考えると体上の多項式環はPIDだからある多項式 $h$ があって $F_2[X]/(h(X))\cong F_2[g]$ となる.&lt;/p&gt;
-&lt;p&gt;また $h(X)=h_1(X)h_2(X)\dots h_n(X)$ と既約分解すると:
-&lt;/p&gt;
-$$
-F_2[X]/(h(X))\cong F_2[X]/(h_1(X))\times F_2[X]/(h_2(X)) \times\dots\times F_2[X]/(h_n(X))\cong F_{2^{deg(h_1)}}\times\dots\times F_{2^{deg(h_n)}}
-$$
-&lt;p&gt;
-である. ここで:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))^\times\cong (F_{2^{deg(h_1)}}\times\dots\times F_{2^{deg(h_n)}})^\times\cong F_{2^{deg(h_1)}}^\times\times\dots\times F_{2^{deg(h_n)}}^\times
-$$
-&lt;p&gt;
-であるが, $A^\times$ の位数が $p^2$ である事から $deg(h_i)\ s.t.\ 2^{deg(h_j)}-1=p^2$ となるある $i$ が取れて:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))\cong F_{2^{deg(h_i)}}\times F_2^n
-$$
-&lt;p&gt;
-もしくは $deg(h_i)=deg(h_j)\ s.t.\ 2^{deg(h_j)}-1=p$ に対して:
-&lt;/p&gt;
-$$
-(F_2[X]/(h(X)))\cong F_{2^{deg(h_i)}}\times F_{2^{deg(h_j)}}\times F_2^n\ 
-$$
-&lt;p&gt;
-である必要がある(実際, それ以外だと単元群と環の直積が可換なことより $A^\times$ の位数が $p^2$ となり得ない).  $deg(h_i)\ s.t.\ 2^{deg(h_j)}-1=p^2$ の時 $mod\ 4$ を考えれば $p\geq 3$ から成り立たないことが分かり, $deg(h_i)=deg(h_j)\ s.t.\ 2^{deg(h_j)}-1=p$ の時は $A^\times\cong (Z/pZ)^2$となり巡回群となり得ない.&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 03 Dec 2024 17:34:31 +0900</lastBuildDate><atom:link href="https://Euleorz.github.io/categories/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>東大数理科学過去問[2]</title>
-        <link>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
         <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;指南書:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R3_4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R3_4.png&#34;
 	
 	
 	
@@ -163,11 +71,11 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[5]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</link>
         <pubDate>Sun, 01 Dec 2024 14:08:13 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2012_B_1.PNG&#34;
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F5/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2012_B_1.PNG&#34;
 	
 	
 	
@@ -209,15 +117,15 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[4]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</link>
         <pubDate>Wed, 27 Nov 2024 20:50:43 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F4/</guid>
         <description>&lt;p&gt;2020年午後の部を最後の位相空間論以外やった、一番の自明な議論と留数の逆経路の計算は(清書がめんどくさかったので)省いた. 微分と積分の交換条件を確認できるサイトを添付しておく:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mathlandscape.com/int-diff-interchange/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;数学の景色&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門1&#34;&gt;大門1
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_1.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.PNG&#34;
 	
 	
 	
@@ -227,7 +135,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_1.jpg&#34;
 	
 	
 	
@@ -238,7 +146,7 @@ $$
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門2&#34;&gt;大門2
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2.PNG&#34;
 	
 	
 	
@@ -248,7 +156,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_1.jpg&#34;
 	
 	
 	
@@ -258,7 +166,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_2_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_2_2.jpg&#34;
 	
 	
 	
@@ -269,7 +177,7 @@ $$
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;大門3&#34;&gt;大門3
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3.PNG&#34;
 	
 	
 	
@@ -279,7 +187,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_1.jpg&#34;
 	
 	
 	
@@ -289,7 +197,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2020_B_3_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2020_B_3_2.jpg&#34;
 	
 	
 	
@@ -303,15 +211,15 @@ $$
         </item>
         <item>
         <title>東大数理科学過去問[1]</title>
-        <link>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
+        <link>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
         <pubDate>Tue, 26 Nov 2024 18:38:08 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
+        <guid>https://Euleorz.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
         <description>&lt;p&gt;東大院試の過去問に関しては完全版:&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;amp;e=2&amp;amp;dl=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;佐久間@keisankionwykip氏による&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;がネットに転がっているので以降追加することは(多分)ないであろう.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_1,2.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1,2.PNG&#34;
 	
 	
 	
@@ -321,7 +229,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_1.jpg&#34;
 	
 	
 	
@@ -331,7 +239,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/R2_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/R2_2.jpg&#34;
 	
 	
 	
@@ -345,12 +253,12 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[3]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</link>
         <pubDate>Tue, 26 Nov 2024 18:31:48 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F3/</guid>
         <description>&lt;p&gt;表現行列と固有値に関する問題である.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1.PNG&#34;
 	
 	
 	
@@ -360,7 +268,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_1.jpg&#34;
 	
 	
 	
@@ -370,7 +278,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_1_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_1_2.jpg&#34;
 	
 	
 	
@@ -384,12 +292,12 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[2]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</link>
         <pubDate>Sun, 24 Nov 2024 09:45:04 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F2/</guid>
         <description>&lt;p&gt;極値判定法の最も簡単な形の例である.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014_3.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3.PNG&#34;
 	
 	
 	
@@ -399,7 +307,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2014_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2014_3_1.jpg&#34;
 	
 	
 	
@@ -413,11 +321,11 @@ $$
         </item>
         <item>
         <title>名大多元数理過去問[1]</title>
-        <link>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
+        <link>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</link>
         <pubDate>Fri, 15 Nov 2024 23:37:26 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3.PNG&#34;
+        <guid>https://Euleorz.github.io/p/%E5%90%8D%E5%A4%A7%E5%A4%9A%E5%85%83%E6%95%B0%E7%90%86%E9%81%8E%E5%8E%BB%E5%95%8F1/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3.PNG&#34;
 	
 	
 	
@@ -427,7 +335,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3_1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_1.jpg&#34;
 	
 	
 	
@@ -437,7 +345,7 @@ $$
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2015_3_2.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://Euleorz.github.io/images/2015_3_2.jpg&#34;
 	
 	
 	

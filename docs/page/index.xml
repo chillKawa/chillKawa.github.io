@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on テロめ</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://Euleorz.github.io/page/</link>
         <description>Recent content in Pages on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Euleorz</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://Euleorz.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://Euleorz.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://Euleorz.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>人類が聴くべき音楽</title>
-        <link>http://localhost:1313/link/</link>
+        <link>https://Euleorz.github.io/link/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/link/</guid>
+        <guid>https://Euleorz.github.io/link/</guid>
         <description>&lt;h3 id=&#34;tchaikovsky&#34;&gt;Tchaikovsky:
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;1812 Overture&lt;/li&gt;
@@ -138,10 +138,10 @@
         </item>
         <item>
         <title>About</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://Euleorz.github.io/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://Euleorz.github.io/about/</guid>
         <description>&lt;p&gt;&lt;strong&gt;連絡先&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;mail: euleorz[at]gmail.com&lt;/li&gt;
@@ -153,10 +153,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://Euleorz.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://Euleorz.github.io/search/</guid>
         <description></description>
         </item>
         
