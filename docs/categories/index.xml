@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Categories on Euleorz Blog</title>
-        <link>https://Euleorz.github.io/categories/</link>
-        <description>Recent content in Categories on Euleorz Blog</description>
+        <title>Categories on テロめ</title>
+        <link>http://localhost:1313/categories/</link>
+        <description>Recent content in Categories on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Euleorz</copyright>
-        <lastBuildDate>Thu, 05 Dec 2024 19:38:21 +0900</lastBuildDate><atom:link href="https://Euleorz.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Music</title>
-        <link>https://Euleorz.github.io/categories/music/</link>
-        <pubDate>Thu, 05 Dec 2024 19:38:21 +0900</pubDate>
+        <lastBuildDate>Mon, 10 Mar 2025 08:52:31 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>院試</title>
+        <link>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</link>
+        <pubDate>Mon, 10 Mar 2025 08:52:31 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/music/</guid>
+        <guid>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</guid>
         <description></description>
         </item>
         <item>
-        <title>院試</title>
-        <link>https://Euleorz.github.io/categories/%E9%99%A2%E8%A9%A6/</link>
-        <pubDate>Tue, 03 Dec 2024 17:34:31 +0900</pubDate>
+        <title>Music</title>
+        <link>http://localhost:1313/categories/music/</link>
+        <pubDate>Thu, 05 Dec 2024 19:38:21 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/%E9%99%A2%E8%A9%A6/</guid>
+        <guid>http://localhost:1313/categories/music/</guid>
         <description></description>
         </item>
         <item>
         <title>Math</title>
-        <link>https://Euleorz.github.io/categories/math/</link>
+        <link>http://localhost:1313/categories/math/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/math/</guid>
+        <guid>http://localhost:1313/categories/math/</guid>
         <description></description>
         </item>
         <item>
         <title>表現論</title>
-        <link>https://Euleorz.github.io/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</link>
+        <link>http://localhost:1313/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</guid>
+        <guid>http://localhost:1313/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</guid>
         <description></description>
         </item>
         <item>
         <title>環論</title>
-        <link>https://Euleorz.github.io/categories/%E7%92%B0%E8%AB%96/</link>
+        <link>http://localhost:1313/categories/%E7%92%B0%E8%AB%96/</link>
         <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/%E7%92%B0%E8%AB%96/</guid>
+        <guid>http://localhost:1313/categories/%E7%92%B0%E8%AB%96/</guid>
         <description></description>
         </item>
         <item>
         <title>その他</title>
-        <link>https://Euleorz.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+        <link>http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
         <pubDate>Thu, 02 May 2024 13:17:18 +0900</pubDate>
         
-        <guid>https://Euleorz.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
+        <guid>http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
         <description></description>
         </item>
         

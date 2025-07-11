@@ -21,7 +21,7 @@ enableRobotsTXT: false
 languages:
     en:
         languageName: English
-        title: Euleorz Blog
+        title: テロめ
         weight: 1
         params:
             sidebar:

@@ -1,26 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pages on Euleorz Blog</title>
-        <link>https://Euleorz.github.io/page/</link>
-        <description>Recent content in Pages on Euleorz Blog</description>
+        <title>Pages on テロめ</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Euleorz</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://Euleorz.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://Euleorz.github.io/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://Euleorz.github.io/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
+        <title>人類が聴くべき音楽</title>
+        <link>http://localhost:1313/link/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/link/</guid>
+        <description>&lt;h3 id=&#34;tchaikovsky&#34;&gt;Tchaikovsky:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;1812 Overture&lt;/li&gt;
+&lt;li&gt;Symphonies 4, 5 ＆ 6 (Karajan or Solti)&lt;/li&gt;
+&lt;li&gt;Piano Concerto 1&lt;/li&gt;
+&lt;li&gt;The Three Great Ballet Scores&lt;/li&gt;
+&lt;li&gt;Serenade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;brahms&#34;&gt;Brahms:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concerto 2 (Backhaus Bohm Wiener)&lt;/li&gt;
+&lt;li&gt;Symphonie 1
+&lt;ul&gt;
+&lt;li&gt;16 Waltzes, no. 3 &amp;amp; 9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mendelssohn&#34;&gt;Mendelssohn:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Violin Concerto
+&lt;ul&gt;
+&lt;li&gt;songs without words&lt;/li&gt;
+&lt;li&gt;6 melodies, no. 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;moszkowski&#34;&gt;Moszkowski:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concerto Op. 59
+&lt;ul&gt;
+&lt;li&gt;Etude in F minor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;beethoven&#34;&gt;Beethoven:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Symphonies 5, 7 &amp;amp; 9 (Karajan Wiener)&lt;/li&gt;
+&lt;li&gt;Emperor&lt;/li&gt;
+&lt;li&gt;The Three Great Sonatas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;borodin&#34;&gt;Borodin:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Symphonie 2 (C.kleiber Stuttgart)&lt;/li&gt;
+&lt;li&gt;Polovetsian Dances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mahler&#34;&gt;Mahler:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sinfonies 1 &amp;amp; 8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;liszt&#34;&gt;liszt:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concertos 1 &amp;amp; 2&lt;/li&gt;
+&lt;li&gt;Liebestraum 3&lt;/li&gt;
+&lt;li&gt;mazeppa (Alexander Lubyantsev)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;dvořák&#34;&gt;Dvořák:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Symphonie 9&lt;/li&gt;
+&lt;li&gt;Cello concerto
+&lt;ul&gt;
+&lt;li&gt;humoresque&lt;/li&gt;
+&lt;li&gt;Slavonic Dances, no. 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;schumann&#34;&gt;Schumann:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concerto 2
+&lt;ul&gt;
+&lt;li&gt;Kinderszenen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rachmaninov&#34;&gt;Rachmaninov:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concertos 1, 2 &amp;amp; 3&lt;/li&gt;
+&lt;li&gt;Vocalise
+&lt;ul&gt;
+&lt;li&gt;Vespers, Op. 37: Come, Let Us Worship&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chopin&#34;&gt;Chopin:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Ballade 1&lt;/li&gt;
+&lt;li&gt;Piano Concerto 1
+&lt;ul&gt;
+&lt;li&gt;Etude 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;grieg&#34;&gt;Grieg:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Piano Concertos&lt;/li&gt;
+&lt;li&gt;Arietta&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;その他&#34;&gt;その他
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Vltava&lt;/li&gt;
+&lt;li&gt;The Planets&lt;/li&gt;
+&lt;li&gt;Messiah&lt;/li&gt;
+&lt;li&gt;Le quattro stagioni&lt;/li&gt;
+&lt;li&gt;Italian Concerto (Glenn Herbert Gould)&lt;/li&gt;
+&lt;li&gt;Rimsky-Korsakov: Scheherazade op.35&lt;/li&gt;
+&lt;li&gt;Khachaturian: Masquerade Suite&lt;/li&gt;
+&lt;li&gt;Shostakovich: Symphony 5&lt;/li&gt;
+&lt;li&gt;君が代&lt;/li&gt;
+&lt;li&gt;Nearer, My God, to Thee&lt;/li&gt;
+&lt;li&gt;Полюшко-поле&lt;/li&gt;
+&lt;li&gt;В путь&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>About</title>
-        <link>https://Euleorz.github.io/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Euleorz.github.io/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;p&gt;&lt;strong&gt;連絡先&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;mail: euleorz[at]gmail.com&lt;/li&gt;
@@ -32,10 +153,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://Euleorz.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Euleorz.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
