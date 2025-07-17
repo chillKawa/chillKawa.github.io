@@ -176,6 +176,25 @@
         
         
         <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>数学系</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/search/' >
                 
                 
@@ -222,7 +241,43 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#追加の-definition">追加の definition</a></li>
+      </ol>
+    </li>
+    <li><a href="#proof">proof</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -297,8 +352,8 @@
     
     <p>多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
 そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.</p>
-<p>定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.</p>
-<p>(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがleft $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.</p>
+<p>定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in \mathrm{mod}A$ がleft, right $\mathcal{C}$-approximationを持つことを言う.</p>
+<p>(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがleft $\mathcal{C}$-approximationも定義しておこう. $X\in \mathrm{mod}A$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $\mathrm{Hom}_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.</p>
 <p>ここで次の記法を用いる:</p>
 <p>$wideA\colon$ wide subcategoryの集まり.</p>
 <p>$torsA\colon$ torsion classの集まり.</p>
@@ -308,6 +363,42 @@
 $$|wideA| \le |torsA|$$
 $$|f\text{-}torsA| \le |f\text{-}wideA|$$
 $$f\text{-}torsA \leftrightarrow \lbrace W\in f\text{-}wideA \mid filt(gen(W))\in f\text{-}torsA\rbrace $$
+<p>$torsA\to wideA$ くらいは見ておこう. これは:
+</p>
+$$
+wideA\to torsA;\ \mathcal{W}\mapsto filt(gen(\mathcal{W}))
+$$
+<p>で与えられる. well-definedness だけ見ておこう.</p>
+<p>一応(一応(一応)) definition をしておく.</p>
+<h3 id="追加の-definition">追加の definition
+</h3><p>$gen(M)=\lbrace X\in\mathrm{mod}A\mid \exists f\in \mathrm{Hom}_A(M^{\exists n},X)\colon\text{ surj.}\rbrace\ (M\in \mathrm{mod}A)$</p>
+<p>$filt(\mathcal{C})=\lbrace X\in\mathrm{mod}A\mid \exists (0=X_0\subset X_1\subset\cdots\subset X_n=X)\colon\text{filtration on }\mathrm{mod}A\ s.t.\ X_i/X_{i+1}\in\mathcal{C} \rbrace$</p>
+<p>また $X\in filt(\mathcal{C})$ に対して $l(X)$ を $X$ の filtration の最小の長さと定義する.</p>
+<h2 id="proof">proof
+</h2>$$
+wideA\to torsA;\ \mathcal{W}\mapsto \mathcal{T}_{\mathcal{W}}:= filt(gen(\mathcal{W}))
+$$
+<p>
+はwell-definedである. 実際, extension closed であることは明らか( $filt(-)$ の定義とジョルダンヘルダーみたいに完全列を部分加群で伸ばせばすぐわかる). $X\in filt(gen(\mathcal{W}))$ に対して, quotient で閉じることを induction on $n = l(X)$ で示す. $\ l(X)=1$ の時は $gen(-)$ の定義より明らか. $n \le n-1$ まで正しいと仮定し $l(X)=n$ とする. $X\to X&rsquo;\colon\text{ surj.}$ を取る. この時 $X_{n-1}\to X\colon$inj. からくる完全列:
+</p>
+$$
+0\to X_{n-1}\stackrel{i}{\to} X\to X/X_{n-1}\to 0
+$$
+<p>
+を考えると, 準同型定理とかから $X/X_{n-1}\in\mathcal{T}_{\mathcal{W}}$. 次の可換図式を考える:</p>
+$$
+\begin{CD}
+0@>>> X_{n-1}  @>>>  X@>>>X/X_{n-1}@>>>0 \\
+@.@|                     @VVV@VVV \\
+@.X_{n-1}@>>{f}>{X'}         @>>>  \mathrm{Coker}(f)@>>>0
+\end{CD}
+$$
+<p>diagram chase でもすれば $X/X_{n-1}\to\mathrm{Coker}(f)$ は全射. また完全列:
+</p>
+$$
+0\to \mathrm{Im}(f)\to X'\to \mathrm{Coker}(f)\to 0
+$$
+<p>で $l(X_{n-1})=n-1$ 故, $\ X_{n-1}\to \mathrm{Im}(f)\colon$ surj. があるから induction の仮定より $\mathrm{Im}(f)\in filt(gen(\mathcal{W}))$. また$X/X_{n-1} \in gen(\mathcal{W})$ から合成で surj. を伸ばせば $\mathrm{Coker}(f)\in gen(\mathcal{W})$ が分かる.  extension で閉じるので $X&rsquo; \in filt(gen(\mathcal{W}))$ これが示すべきことであった.</p>
 <embed src="https://arxiv.org/pdf/1503.04639" type="application/pdf" width="100%" height="700px">
 <p>参考文献:
 F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, Bull. London Math. Soc. 49

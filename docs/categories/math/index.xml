@@ -15,8 +15,8 @@
         <guid>https://ankailue.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
         <description>&lt;img src="https://ankailue.github.io/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
 そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
-&lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in modA$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
-&lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがleft $\mathcal{C}$-approximationも定義しておこう. $X\in modA$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $Hom_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
+&lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in \mathrm{mod}A$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
+&lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがleft $\mathcal{C}$-approximationも定義しておこう. $X\in \mathrm{mod}A$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $\mathrm{Hom}_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
 &lt;p&gt;ここで次の記法を用いる:&lt;/p&gt;
 &lt;p&gt;$wideA\colon$ wide subcategoryの集まり.&lt;/p&gt;
 &lt;p&gt;$torsA\colon$ torsion classの集まり.&lt;/p&gt;
@@ -26,6 +26,42 @@
 $$|wideA| \le |torsA|$$
 $$|f\text{-}torsA| \le |f\text{-}wideA|$$
 $$f\text{-}torsA \leftrightarrow \lbrace W\in f\text{-}wideA \mid filt(gen(W))\in f\text{-}torsA\rbrace $$
+&lt;p&gt;$torsA\to wideA$ くらいは見ておこう. これは:
+&lt;/p&gt;
+$$
+wideA\to torsA;\ \mathcal{W}\mapsto filt(gen(\mathcal{W}))
+$$
+&lt;p&gt;で与えられる. well-definedness だけ見ておこう.&lt;/p&gt;
+&lt;p&gt;一応(一応(一応)) definition をしておく.&lt;/p&gt;
+&lt;h3 id=&#34;追加の-definition&#34;&gt;追加の definition
+&lt;/h3&gt;&lt;p&gt;$gen(M)=\lbrace X\in\mathrm{mod}A\mid \exists f\in \mathrm{Hom}_A(M^{\exists n},X)\colon\text{ surj.}\rbrace\ (M\in \mathrm{mod}A)$&lt;/p&gt;
+&lt;p&gt;$filt(\mathcal{C})=\lbrace X\in\mathrm{mod}A\mid \exists (0=X_0\subset X_1\subset\cdots\subset X_n=X)\colon\text{filtration on }\mathrm{mod}A\ s.t.\ X_i/X_{i+1}\in\mathcal{C} \rbrace$&lt;/p&gt;
+&lt;p&gt;また $X\in filt(\mathcal{C})$ に対して $l(X)$ を $X$ の filtration の最小の長さと定義する.&lt;/p&gt;
+&lt;h2 id=&#34;proof&#34;&gt;proof
+&lt;/h2&gt;$$
+wideA\to torsA;\ \mathcal{W}\mapsto \mathcal{T}_{\mathcal{W}}:= filt(gen(\mathcal{W}))
+$$
+&lt;p&gt;
+はwell-definedである. 実際, extension closed であることは明らか( $filt(-)$ の定義とジョルダンヘルダーみたいに完全列を部分加群で伸ばせばすぐわかる). $X\in filt(gen(\mathcal{W}))$ に対して, quotient で閉じることを induction on $n = l(X)$ で示す. $\ l(X)=1$ の時は $gen(-)$ の定義より明らか. $n \le n-1$ まで正しいと仮定し $l(X)=n$ とする. $X\to X&amp;rsquo;\colon\text{ surj.}$ を取る. この時 $X_{n-1}\to X\colon$inj. からくる完全列:
+&lt;/p&gt;
+$$
+0\to X_{n-1}\stackrel{i}{\to} X\to X/X_{n-1}\to 0
+$$
+&lt;p&gt;
+を考えると, 準同型定理とかから $X/X_{n-1}\in\mathcal{T}_{\mathcal{W}}$. 次の可換図式を考える:&lt;/p&gt;
+$$
+\begin{CD}
+0@&gt;&gt;&gt; X_{n-1}  @&gt;&gt;&gt;  X@&gt;&gt;&gt;X/X_{n-1}@&gt;&gt;&gt;0 \\
+@.@|                     @VVV@VVV \\
+@.X_{n-1}@&gt;&gt;{f}&gt;{X&#39;}         @&gt;&gt;&gt;  \mathrm{Coker}(f)@&gt;&gt;&gt;0
+\end{CD}
+$$
+&lt;p&gt;diagram chase でもすれば $X/X_{n-1}\to\mathrm{Coker}(f)$ は全射. また完全列:
+&lt;/p&gt;
+$$
+0\to \mathrm{Im}(f)\to X&#39;\to \mathrm{Coker}(f)\to 0
+$$
+&lt;p&gt;で $l(X_{n-1})=n-1$ 故, $\ X_{n-1}\to \mathrm{Im}(f)\colon$ surj. があるから induction の仮定より $\mathrm{Im}(f)\in filt(gen(\mathcal{W}))$. また$X/X_{n-1} \in gen(\mathcal{W})$ から合成で surj. を伸ばせば $\mathrm{Coker}(f)\in gen(\mathcal{W})$ が分かる.  extension で閉じるので $X&amp;rsquo; \in filt(gen(\mathcal{W}))$ これが示すべきことであった.&lt;/p&gt;
 &lt;embed src=&#34;https://arxiv.org/pdf/1503.04639&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;700px&#34;&gt;
 &lt;p&gt;参考文献:
 F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, Bull. London Math. Soc. 49
