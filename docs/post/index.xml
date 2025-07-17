@@ -7,8 +7,45 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 21:52:09 +0900</lastBuildDate><atom:link href="https://ankailue.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>τ-tilting theoryのメモ</title>
+        <lastBuildDate>Thu, 17 Jul 2025 17:46:01 +0900</lastBuildDate><atom:link href="https://ankailue.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>TeXitが楽しい</title>
+        <link>https://ankailue.github.io/p/2025717/</link>
+        <pubDate>Thu, 17 Jul 2025 17:46:01 +0900</pubDate>
+        
+        <guid>https://ankailue.github.io/p/2025717/</guid>
+        <description>&lt;img src="https://ankailue.github.io/images/texit_3.PNG" alt="Featured image of post TeXitが楽しい" /&gt;&lt;h1 id=&#34;discord-の-bot-texit-が便利で楽しいです&#34;&gt;Discord の bot, TeXit が便利で楽しいです.
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://top.gg/bot/510789298321096704&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;導入先サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/YySNRUHpcR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Discord Support Server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このbot, discord 上で tex を書くことが出来て:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ankailue.github.io/images/texit_1.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;みたいな普通の数式から:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ankailue.github.io/images/texit_2.PNG&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;description of the image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;みたいな図式まで書いたりできます.&lt;/p&gt;
+&lt;p&gt;discordで数学の議論したりするのが捗りそうですね!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>τ-tilting theoryのメモ(未完)</title>
         <link>https://ankailue.github.io/p/2025713/</link>
         <pubDate>Sun, 13 Jul 2025 21:52:09 +0900</pubDate>
         
@@ -130,15 +167,15 @@ $$
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
         <guid>https://ankailue.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
-        <description>&lt;img src="https://ankailue.github.io/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $modA$ の部分圏を考えることはbasicな手法である.
-そこで部分圏の中でfunctorially finit(関手的有限性)という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
-&lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in modA$ がfunctorially finitであるとは任意の $X\in \mathrm{mod}A$ がleft, right $\mathcal{C}$-approximationを持つことを言う.&lt;/p&gt;
-&lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだがleft $\mathcal{C}$-approximationも定義しておこう. $X\in \mathrm{mod}A$ がleft $\mathcal{C}$-approximationを持つとは, あるobject $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $\mathrm{Hom}_{A}(g,\tilde{C})$ が全射であることを言う. 勿論rightについても同様に(双対的に)定義する.&lt;/p&gt;
+        <description>&lt;img src="https://ankailue.github.io/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $\mathrm{mod}A$ の部分圏を考えることは basic な手法である.
+そこで部分圏の中で functorially finit(関手的有限性) という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
+&lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in \mathrm{mod}A$ が functorially finit であるとは任意の $X\in \mathrm{mod}A$ が left, right $\mathcal{C}$-approximation を持つことを言う.&lt;/p&gt;
+&lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだが left $\mathcal{C}$-approximation も定義しておこう. $X\in \mathrm{mod}A$ が left $\mathcal{C}$-approximation を持つとは, ある object $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $\mathrm{Hom}_{A}(g,\tilde{C})$ が全射であることを言う. 勿論 right についても同様に(双対的に)定義する.&lt;/p&gt;
 &lt;p&gt;ここで次の記法を用いる:&lt;/p&gt;
-&lt;p&gt;$wideA\colon$ wide subcategoryの集まり.&lt;/p&gt;
-&lt;p&gt;$torsA\colon$ torsion classの集まり.&lt;/p&gt;
-&lt;p&gt;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategoryの集まり.&lt;/p&gt;
-&lt;p&gt;$f$-$torsA\subset torsA\colon$ functorially finiteなtorsion classの集まり.&lt;/p&gt;
+&lt;p&gt;$wideA\colon$ wide subcategory の集まり.&lt;/p&gt;
+&lt;p&gt;$torsA\colon$ torsion class の集まり.&lt;/p&gt;
+&lt;p&gt;$f$-$wideA\subset wideA\colon$ functorially finiteなwide subcategory の集まり.&lt;/p&gt;
+&lt;p&gt;$f$-$torsA\subset torsA\colon$ functorially finiteなtorsion class の集まり.&lt;/p&gt;
 &lt;p&gt;この時次が成り立つ:&lt;/p&gt;
 $$|wideA| \le |torsA|$$
 $$|f\text{-}torsA| \le |f\text{-}wideA|$$
