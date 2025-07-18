@@ -14,7 +14,7 @@ draft: "false"
 
 ## 多元環の表現論
 ---
-### [[MS] (記事リンク)]({{< link-cross-ref "/post/2024_11_24.md" >}})
+### {{< link-cross-ref "/post/2024_11_24.md" >}}
 >Marks-Stovıcek "Torsion classes, wide subcategories and localisations" について解説しています. 所謂:
 >$$|wideA| \le |torsA|$$
 >
