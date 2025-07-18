@@ -363,8 +363,11 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
         <description>&lt;p&gt;ここは数学系の記事の中でも, とりわけ専門性の高いものを集めたpageです.&lt;/p&gt;
 &lt;h2 id=&#34;多元環の表現論&#34;&gt;多元環の表現論
 &lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id=&#34;hahahugoshortcode4s0hbhb&#34;&gt;&lt;a class=&#34;link-cross-ref&#34; title=&#34;良い部分圏の濃度&#34; href=&#34;https://chillkawa.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/&#34;&gt;良い部分圏の濃度&lt;/a&gt;
-&lt;/h3&gt;&lt;blockquote&gt;
+&lt;h3 id=&#34;ms&#34;&gt;[MS]
+&lt;/h3&gt;&lt;div class=&#34;button018&#34;&gt;
+    &lt;a title=&#34;良い部分圏の濃度&#34; href=&#34;https://chillkawa.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/&#34;&gt;&lt;span&gt;良い部分圏の濃度&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
 &lt;p&gt;Marks-Stovıcek &amp;ldquo;Torsion classes, wide subcategories and localisations&amp;rdquo; について解説しています. 所謂:
 &lt;/p&gt;
 $$|wideA| \le |torsA|$$
