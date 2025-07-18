@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>環論 on テロめ</title>
-        <link>https://chillkawa.github.io/categories/%E7%92%B0%E8%AB%96/</link>
+        <link>http://localhost:1313/categories/%E7%92%B0%E8%AB%96/</link>
         <description>Recent content in 環論 on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Thu, 02 May 2024 13:39:48 +0900</lastBuildDate><atom:link href="https://chillkawa.github.io/categories/%E7%92%B0%E8%AB%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 May 2024 13:39:48 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%92%B0%E8%AB%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>準素イデアルについて</title>
-        <link>https://chillkawa.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <link>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
         <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-        <description>&lt;img src="https://chillkawa.github.io/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
+        <guid>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="http://localhost:1313/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
 &lt;p&gt;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&lt;/p&gt;
 &lt;p&gt;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&lt;/p&gt;
 &lt;p&gt;所で Ass とかも松村とかの定義はあんまり好みじゃなくて.&lt;/p&gt;
@@ -26,7 +26,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;
 を考えたらいいですね.&lt;/p&gt;
 &lt;h1 id=&#34;良い証明&#34;&gt;良い証明
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://chillkawa.github.io/images/prime_fil.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/prime_fil.PNG&#34;
 	
 	
 	
@@ -41,7 +41,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;一応置いておく(これは元を取っている;;)
-&lt;img src=&#34;https://chillkawa.github.io/images/lemma_primary.PNG&#34;
+&lt;img src=&#34;http://localhost:1313/images/lemma_primary.PNG&#34;
 	
 	
 	

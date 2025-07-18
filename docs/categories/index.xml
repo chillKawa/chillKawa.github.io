@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on テロめ</title>
-        <link>https://chillkawa.github.io/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Fri, 18 Jul 2025 19:21:14 +0900</lastBuildDate><atom:link href="https://chillkawa.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Jul 2025 19:21:14 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>数学</title>
-        <link>https://chillkawa.github.io/categories/%E6%95%B0%E5%AD%A6/</link>
+        <link>http://localhost:1313/categories/%E6%95%B0%E5%AD%A6/</link>
         <pubDate>Fri, 18 Jul 2025 19:21:14 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/%E6%95%B0%E5%AD%A6/</guid>
+        <guid>http://localhost:1313/categories/%E6%95%B0%E5%AD%A6/</guid>
         <description></description>
         </item>
         <item>
         <title>院試</title>
-        <link>https://chillkawa.github.io/categories/%E9%99%A2%E8%A9%A6/</link>
+        <link>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</link>
         <pubDate>Fri, 18 Jul 2025 19:21:14 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/%E9%99%A2%E8%A9%A6/</guid>
+        <guid>http://localhost:1313/categories/%E9%99%A2%E8%A9%A6/</guid>
         <description></description>
         </item>
         <item>
         <title>その他</title>
-        <link>https://chillkawa.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+        <link>http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
         <pubDate>Sun, 13 Jul 2025 20:25:20 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
+        <guid>http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</guid>
         <description></description>
         </item>
         <item>
         <title>Math</title>
-        <link>https://chillkawa.github.io/categories/math/</link>
+        <link>http://localhost:1313/categories/math/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/math/</guid>
+        <guid>http://localhost:1313/categories/math/</guid>
         <description></description>
         </item>
         <item>
         <title>表現論</title>
-        <link>https://chillkawa.github.io/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</link>
+        <link>http://localhost:1313/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</guid>
+        <guid>http://localhost:1313/categories/%E8%A1%A8%E7%8F%BE%E8%AB%96/</guid>
         <description></description>
         </item>
         <item>
         <title>環論</title>
-        <link>https://chillkawa.github.io/categories/%E7%92%B0%E8%AB%96/</link>
+        <link>http://localhost:1313/categories/%E7%92%B0%E8%AB%96/</link>
         <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
         
-        <guid>https://chillkawa.github.io/categories/%E7%92%B0%E8%AB%96/</guid>
+        <guid>http://localhost:1313/categories/%E7%92%B0%E8%AB%96/</guid>
         <description></description>
         </item>
         
