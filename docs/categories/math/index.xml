@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Math on テロめ</title>
-        <link>http://localhost:1313/categories/math/</link>
+        <link>https://chillkawa.github.io/categories/math/</link>
         <description>Recent content in Math on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Sun, 24 Nov 2024 00:57:27 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 24 Nov 2024 00:57:27 +0900</lastBuildDate><atom:link href="https://chillkawa.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>良い部分圏の濃度</title>
-        <link>http://localhost:1313/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</link>
+        <link>https://chillkawa.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</link>
         <pubDate>Sun, 24 Nov 2024 00:57:27 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
-        <description>&lt;img src="http://localhost:1313/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $\mathrm{mod}A$ の部分圏を考えることは basic な手法である.
+        <guid>https://chillkawa.github.io/p/%E8%89%AF%E3%81%84%E9%83%A8%E5%88%86%E5%9C%8F%E3%81%AE%E6%BF%83%E5%BA%A6/</guid>
+        <description>&lt;img src="https://chillkawa.github.io/images/MS_in.PNG" alt="Featured image of post 良い部分圏の濃度" /&gt;&lt;p&gt;多元環の表現論において $\mathrm{mod}A$ の部分圏を考えることは basic な手法である.
 そこで部分圏の中で functorially finit(関手的有限性) という条件を満たすものを考えると面白いことが起こる.&lt;/p&gt;
 &lt;p&gt;定義をしよう. 部分圏 $\mathcal{C}\in \mathrm{mod}A$ が functorially finit であるとは任意の $X\in \mathrm{mod}A$ が left, right $\mathcal{C}$-approximation を持つことを言う.&lt;/p&gt;
 &lt;p&gt;(定義の順序が)数学をするのに有るまじき詩的(私的, 或いは恣意的)さだが left $\mathcal{C}$-approximation も定義しておこう. $X\in \mathrm{mod}A$ が left $\mathcal{C}$-approximation を持つとは, ある object $C\in \mathcal{C}$ と $g\colon X\to C$ が存在して任意の $\tilde{C}\in\mathcal{C}$ に対して $\mathrm{Hom}_{A}(g,\tilde{C})$ が全射であることを言う. 勿論 right についても同様に(双対的に)定義する.&lt;/p&gt;
@@ -70,11 +70,11 @@ F. Marks, J. Stovıcek, Torsion classes, wide subcategories and localisations, B
         </item>
         <item>
         <title>準素イデアルについて</title>
-        <link>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <link>https://chillkawa.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
         <pubDate>Thu, 02 May 2024 13:39:48 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
-        <description>&lt;img src="http://localhost:1313/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
+        <guid>https://chillkawa.github.io/p/%E6%BA%96%E7%B4%A0%E3%82%A4%E3%83%87%E3%82%A2%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;img src="https://chillkawa.github.io/images/prime_fil.PNG" alt="Featured image of post 準素イデアルについて" /&gt;&lt;p&gt;準素イデアルの定義ってどんなものを採用してますか?&lt;/p&gt;
 &lt;p&gt;私は $\mathrm{Ass}_A(A/\mathfrak{q}) =\lbrace\mathfrak{p}\rbrace$ となるものを $\mathfrak{p}$-準素イデアルと定義してます.&lt;/p&gt;
 &lt;p&gt;なんか良くあるのは片方が入ってなかったら$n$乗が入るみたいな定義で, それで証明を読んでもよくわからない感があるので個人的にきついです.&lt;/p&gt;
 &lt;p&gt;所で Ass とかも松村とかの定義はあんまり好みじゃなくて.&lt;/p&gt;
@@ -87,7 +87,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;
 を考えたらいいですね.&lt;/p&gt;
 &lt;h1 id=&#34;良い証明&#34;&gt;良い証明
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/prime_fil.PNG&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://chillkawa.github.io/images/prime_fil.PNG&#34;
 	
 	
 	
@@ -102,7 +102,7 @@ $$A/\mathfrak{p}\to N\hookrightarrow M$$
 &lt;p&gt;$N=\bigcap N_i$を irredundant(無駄のない準素分解)とすると (但し$\mathrm{Ass}(M/N_i)=\lbrace \mathfrak{p}_i\rbrace$), inj. $M/N \to \bigoplus_i M/N_i$があるので$\mathrm{Ass}(M/N)\subset\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;irredundant だから $0\neq\bigcap_{i\neq j}N_j/N\to M/N$ が inj.で $ \mathfrak{p}_i \in\mathrm{Ass}\bigcap_{i\neq j}N_i/N \subset \mathrm{Ass}M/N$だから, $\mathrm{Ass}M/N=\lbrace \mathfrak{p}_1,\dots\mathfrak{p}_n\rbrace$.&lt;/p&gt;
 &lt;p&gt;一応置いておく(これは元を取っている;;)
-&lt;img src=&#34;http://localhost:1313/images/lemma_primary.PNG&#34;
+&lt;img src=&#34;https://chillkawa.github.io/images/lemma_primary.PNG&#34;
 	
 	
 	
