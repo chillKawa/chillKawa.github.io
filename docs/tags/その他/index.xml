@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>その他 on テロめ</title>
-        <link>http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+        <link>http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
         <description>Recent content in その他 on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Sun, 13 Jul 2025 20:25:20 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 13 Jul 2025 20:25:20 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CVJ nekoが届いたよー</title>
         <link>http://localhost:1313/p/cvj_neko/</link>
         <pubDate>Sun, 13 Jul 2025 20:25:20 +0900</pubDate>
@@ -28,16 +28,6 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;それにしてもこのフェイスプレート凄いなぁ&amp;hellip;。
 とどいたnekoちゃんの製造番号は $i=926$ ($0\le i\le 999$) でした (1000台限定生産なのでギリギリ購入できました).&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>テストです</title>
-        <link>http://localhost:1313/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</link>
-        <pubDate>Wed, 01 May 2024 19:04:51 +0900</pubDate>
-        
-        <guid>http://localhost:1313/p/%E3%83%86%E3%82%B9%E3%83%88%E3%81%A7%E3%81%99/</guid>
-        <description>&lt;img src="http://localhost:1313/images/fire-icon.png" alt="Featured image of post テストです" /&gt;&lt;h1 id=&#34;見出し&#34;&gt;見出し
-&lt;/h1&gt;&lt;p&gt;この記事はテストです. ツイッター以外に言語を落としたかったので適当に作りました.&lt;/p&gt;
 </description>
         </item>
         

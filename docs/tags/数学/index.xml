@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>院試 on テロめ</title>
-        <link>http://localhost:1313/tags/%E9%99%A2%E8%A9%A6/</link>
-        <description>Recent content in 院試 on テロめ</description>
+        <title>数学 on テロめ</title>
+        <link>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</link>
+        <description>Recent content in 数学 on テロめ</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>テロめ</copyright>
-        <lastBuildDate>Fri, 18 Jul 2025 19:21:14 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%99%A2%E8%A9%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Jul 2025 19:21:14 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>固有値計算についての院試テク</title>
         <link>http://localhost:1313/p/2025718/</link>
         <pubDate>Fri, 18 Jul 2025 19:21:14 +0900</pubDate>
