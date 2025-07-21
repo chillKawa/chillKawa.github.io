@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1⃣(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
 <title>(カス記事)固有値計算についての院試テク</title>
 
 <link rel='canonical' href='https://chillkawa.github.io/p/2025718/'>
 
 <link rel="stylesheet" href="/scss/style.min.342d81413804f987bbdb8589cb56ba90c2500771e4b79f3c66f49973023ce15f.css"><meta property='og:title' content="(カス記事)固有値計算についての院試テク">
-<meta property='og:description' content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1⃣(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
+<meta property='og:description' content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
 <meta property='og:url' content='https://chillkawa.github.io/p/2025718/'>
 <meta property='og:site_name' content='テロめ'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-18T19:21:14&#43;09:00'/><meta property='article:modified_time' content='2025-07-18T19:21:14&#43;09:00'/>
 <meta name="twitter:title" content="(カス記事)固有値計算についての院試テク">
-<meta name="twitter:description" content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1⃣(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
+<meta name="twitter:description" content="エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です. e.g.(大門1(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)): 3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方\r3次正方行列 $A$ の固有値を $\\lambda_1, \\lambda_2, \\lambda_3$ とする. このとき, 以下が成り立つ: $$ \\text{tr}(A) = \\lambda_1 + \\lambda_2 + \\lambda_3\\colon \\text{（トレース）} $$ $$ \\mathrm{det}(A) = \\lambda_1 \\lambda_2 \\lambda_3\\colon \\text{（行列式）} $$ 固有値の一つが既知, たとえば $\\lambda_1 = a$ であるとき, 残りの2つを $b = \\lambda_2, c = \\lambda_3$ とすると: $$ b + c = \\text{tr}(A) - a $$ $$ bc = \\frac{\\det(A)}{a} $$ このとき, $b, c$ は以下の2次方程式の解として求められる: \\[ x^2 - (b + c)x + bc = 0 \\] すなわち,">
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
   
@@ -67,7 +67,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">テロめ</a></h1>
-            <h2 class="site-description">脳 brainです.</h2>
+            <h2 class="site-description">シンデレラゲィジ, 脳 brainです.</h2>
         </div>
     </header><ol class="menu-social">
             
@@ -345,7 +345,7 @@
     
     
     <p>エスパーで一つ固有値を見つけたとき(たまーに使える)いい解答があって, 例えば変数付きの行列に対して固有多項式キモイなとなったときに有効です.</p>
-<p>e.g.(大門1⃣(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)):</p>
+<p>e.g.(大門1(これは確かtrの和だけから行けた気がするので適切な例ではない可能性がある;;)):</p>
 <embed src="https://www.math.nagoya-u.ac.jp/ja/admission/gs/download/exam-mc-2021-2_day1.pdf" type="application/pdf" width="100%" height="700px">
 <h3 id="3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方">3次正方行列の固有値の一つが分かっているときの残りの固有値の求め方
 </h3><p>3次正方行列 $A$ の固有値を $\lambda_1, \lambda_2, \lambda_3$ とする.<br>
@@ -401,7 +401,7 @@ x = 6 \quad \text{または} \quad x = 3
 \[
 \boxed{2,\ 3,\ 6}
 \]
-<p>上の例は次のpdfの大門2⃣である($A\ {}^t(1,-1,0)=2\ {}^t(1,-1,0)$とエスパー出来る(しかしながらdet結局を考えるのであんまかわかん気もする)):
+<p>上の例は次のpdfの大門2である($A\ {}^t(1,-1,0)=2\ {}^t(1,-1,0)$とエスパー出来る(しかしながらdet結局を考えるのであんまかわかん気もする)):
 <embed src="https://www.math.nagoya-u.ac.jp/ja/admission/gs/download/exam-mc-2011-1_am.pdf" type="application/pdf" width="100%" height="700px"></p>
 
 </section>
@@ -463,6 +463,25 @@ x = 6 \quad \text{または} \quad x = 3
             
                 
 <article class="has-image">
+    <a href="/p/2025721/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/toukouH29.png" loading="lazy" data-key="2025721" data-hash="/images/toukouH29.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ヘルダー連続(東工大H29)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/2025717/">
         
         
@@ -494,9 +513,15 @@ x = 6 \quad \text{または} \quad x = 3
 
             
                 
-<article class="">
+<article class="has-image">
     <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/">
         
+        
+            <div class="article-image">
+                
+                    <img src="/images/R3_4.png" loading="lazy" data-key="" data-hash="/images/R3_4.png"/>
+                
+            </div>
         
 
         <div class="article-details">

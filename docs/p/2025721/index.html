@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="令和4年広義積分">
-<title>東大数理科学過去問[2]</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="[東工大H29,大門5.3]の問題で面白い(時間がかかった)のがあったので解答を書きます. 問題pdf: proof\r(1)\r$\\forall\\varepsilon&gt;0$を取る. 仮定より,$\\ A\\in\\mathbb{R}$が存在して$(0&lt;R&lt;1)$: $$ \\forall x\\in[R,1),\\ \\ \\exists\\delta_x >0,\\ |1-x|<\\delta_x\\Rightarrow \\left|A-f(x)\\right|<\\varepsilon $$ また, $f$ が $[0,1)$ で連続より: $$ \\exists\\delta_1 >0,\\forall x,y\\in[0,R],\\ |x-y|<\\delta_1\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$x,y\\in[0,1)\\ (x&gt;y)$を取り: $$\\delta:=\\begin{cases} \\delta_1 &(x,y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_1\\rbrace &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_y\\rbrace &(x,y\\in[R,1)) \\end{cases}$$ とすると: $$ |x-y|<\\delta\\Rightarrow \\begin{cases} \\left|f(x)-f(y)\\right|<\\epsilon<3\\epsilon\\ &(x,y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(y)-f(R)\\right|+\\left|f(R)-A\\right|+\\left|A-f(x)\\right|<3\\epsilon\\ &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(x)-A\\right|+\\left|A-f(y)\\right|<2\\epsilon<3\\epsilon\\ &(x,y\\in[R,1)) \\end{cases} $$ 以上より題意は従う. (2)\r任意に$\\varepsilon&gt;0$を取る. 後述する(Claim)より(1)の逆「$f$が$[0,1)$で一様連続ならば$\\lim_{x\\to1-0}f(x)&lt;\\infty$」を示せば対偶より題意は従う. $f$が$[0,1)$で一様連続と仮定する, 即ち: $$ \\exists\\delta >0,\\forall x,y\\in[0,1),\\ |x-y|<\\delta\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$[0,1)$上の $1$ に下から近づく点列 $\\lbrace x_n\\rbrace_{n\\in\\mathbb{N}}\\nearrow 1$ を取る.">
+<title>ヘルダー連続(東工大H29)</title>
 
-<link rel='canonical' href='https://chillkawa.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/'>
+<link rel='canonical' href='https://chillkawa.github.io/p/2025721/'>
 
-<link rel="stylesheet" href="/scss/style.min.342d81413804f987bbdb8589cb56ba90c2500771e4b79f3c66f49973023ce15f.css"><meta property='og:title' content="東大数理科学過去問[2]">
-<meta property='og:description' content="令和4年広義積分">
-<meta property='og:url' content='https://chillkawa.github.io/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/'>
+<link rel="stylesheet" href="/scss/style.min.342d81413804f987bbdb8589cb56ba90c2500771e4b79f3c66f49973023ce15f.css"><meta property='og:title' content="ヘルダー連続(東工大H29)">
+<meta property='og:description' content="[東工大H29,大門5.3]の問題で面白い(時間がかかった)のがあったので解答を書きます. 問題pdf: proof\r(1)\r$\\forall\\varepsilon&gt;0$を取る. 仮定より,$\\ A\\in\\mathbb{R}$が存在して$(0&lt;R&lt;1)$: $$ \\forall x\\in[R,1),\\ \\ \\exists\\delta_x >0,\\ |1-x|<\\delta_x\\Rightarrow \\left|A-f(x)\\right|<\\varepsilon $$ また, $f$ が $[0,1)$ で連続より: $$ \\exists\\delta_1 >0,\\forall x,y\\in[0,R],\\ |x-y|<\\delta_1\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$x,y\\in[0,1)\\ (x&gt;y)$を取り: $$\\delta:=\\begin{cases} \\delta_1 &(x,y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_1\\rbrace &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_y\\rbrace &(x,y\\in[R,1)) \\end{cases}$$ とすると: $$ |x-y|<\\delta\\Rightarrow \\begin{cases} \\left|f(x)-f(y)\\right|<\\epsilon<3\\epsilon\\ &(x,y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(y)-f(R)\\right|+\\left|f(R)-A\\right|+\\left|A-f(x)\\right|<3\\epsilon\\ &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(x)-A\\right|+\\left|A-f(y)\\right|<2\\epsilon<3\\epsilon\\ &(x,y\\in[R,1)) \\end{cases} $$ 以上より題意は従う. (2)\r任意に$\\varepsilon&gt;0$を取る. 後述する(Claim)より(1)の逆「$f$が$[0,1)$で一様連続ならば$\\lim_{x\\to1-0}f(x)&lt;\\infty$」を示せば対偶より題意は従う. $f$が$[0,1)$で一様連続と仮定する, 即ち: $$ \\exists\\delta >0,\\forall x,y\\in[0,1),\\ |x-y|<\\delta\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$[0,1)$上の $1$ に下から近づく点列 $\\lbrace x_n\\rbrace_{n\\in\\mathbb{N}}\\nearrow 1$ を取る.">
+<meta property='og:url' content='https://chillkawa.github.io/p/2025721/'>
 <meta property='og:site_name' content='テロめ'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-03T17:34:31&#43;09:00'/><meta property='article:modified_time' content='2024-12-03T17:34:31&#43;09:00'/><meta property='og:image' content='https://chillkawa.github.io/images/R3_4.png' />
-<meta name="twitter:title" content="東大数理科学過去問[2]">
-<meta name="twitter:description" content="令和4年広義積分"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://chillkawa.github.io/images/R3_4.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-21T13:46:21&#43;09:00'/><meta property='article:modified_time' content='2025-07-21T13:46:21&#43;09:00'/><meta property='og:image' content='https://chillkawa.github.io/images/toukouH29.png' />
+<meta name="twitter:title" content="ヘルダー連続(東工大H29)">
+<meta name="twitter:description" content="[東工大H29,大門5.3]の問題で面白い(時間がかかった)のがあったので解答を書きます. 問題pdf: proof\r(1)\r$\\forall\\varepsilon&gt;0$を取る. 仮定より,$\\ A\\in\\mathbb{R}$が存在して$(0&lt;R&lt;1)$: $$ \\forall x\\in[R,1),\\ \\ \\exists\\delta_x >0,\\ |1-x|<\\delta_x\\Rightarrow \\left|A-f(x)\\right|<\\varepsilon $$ また, $f$ が $[0,1)$ で連続より: $$ \\exists\\delta_1 >0,\\forall x,y\\in[0,R],\\ |x-y|<\\delta_1\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$x,y\\in[0,1)\\ (x&gt;y)$を取り: $$\\delta:=\\begin{cases} \\delta_1 &(x,y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_1\\rbrace &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\mathrm{min}\\lbrace\\delta_x,\\delta_y\\rbrace &(x,y\\in[R,1)) \\end{cases}$$ とすると: $$ |x-y|<\\delta\\Rightarrow \\begin{cases} \\left|f(x)-f(y)\\right|<\\epsilon<3\\epsilon\\ &(x,y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(y)-f(R)\\right|+\\left|f(R)-A\\right|+\\left|A-f(x)\\right|<3\\epsilon\\ &(x\\in[R,1),\\ y\\in[0,R])\\\\ \\left|f(x)-f(y)\\right|\\le\\left|f(x)-A\\right|+\\left|A-f(y)\\right|<2\\epsilon<3\\epsilon\\ &(x,y\\in[R,1)) \\end{cases} $$ 以上より題意は従う. (2)\r任意に$\\varepsilon&gt;0$を取る. 後述する(Claim)より(1)の逆「$f$が$[0,1)$で一様連続ならば$\\lim_{x\\to1-0}f(x)&lt;\\infty$」を示せば対偶より題意は従う. $f$が$[0,1)$で一様連続と仮定する, 即ち: $$ \\exists\\delta >0,\\forall x,y\\in[0,1),\\ |x-y|<\\delta\\Rightarrow \\left|f(x)-f(y)\\right|<\\varepsilon $$ 任意に$[0,1)$上の $1$ に下から近づく点列 $\\lbrace x_n\\rbrace_{n\\in\\mathbb{N}}\\nearrow 1$ を取る."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://chillkawa.github.io/images/toukouH29.png' />
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
   
@@ -241,15 +241,56 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#proof">proof</a>
+      <ol>
+        <li><a href="#1">(1)</a></li>
+        <li><a href="#2">(2)</a>
+          <ol>
+            <li><a href="#claim">Claim</a></li>
+          </ol>
+        </li>
+        <li><a href="#3">(3)</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/">
+            <a href="/p/2025721/">
                 
-                    <img src="/images/R3_4.png" loading="lazy" alt="Featured image of post 東大数理科学過去問[2]" />
+                    <img src="/images/toukouH29.png" loading="lazy" alt="Featured image of post ヘルダー連続(東工大H29)" />
                 
             </a>
         </div>
@@ -263,18 +304,18 @@
                 院試
             </a>
         
+            <a href="/categories/%E6%95%B0%E5%AD%A6/" >
+                数学
+            </a>
+        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/">東大数理科学過去問[2]</a>
+            <a href="/p/2025721/">ヘルダー連続(東工大H29)</a>
         </h2>
     
-        
-        <h3 class="article-subtitle">
-            令和4年広義積分
-        </h3>
         
     </div>
 
@@ -294,7 +335,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Dec 03, 2024</time>
+                <time class="article-time--published">Jul 21, 2025</time>
             </div>
         
 
@@ -310,62 +351,108 @@
     <section class="article-content">
     
     
-    <p>指南書:</p>
-<p><a class="link" href="https://www.dropbox.com/scl/fo/c7mmwfxw3p35ckteioz0w/AHjphQ1JoxCupbm9UyFbsUs?rlkey=7icu18r0d6m2tub7xjxho1git&amp;e=2&amp;dl=0"  target="_blank" rel="noopener"
-    >佐久間@keisankionwykip氏による</a>
-や<a class="link" href="https://mathlog.info/articles/ExffVDUnvDcBWnTgw2kV"  target="_blank" rel="noopener"
-    >藍色日和@sasaki_aiiro
-氏による</a></p>
-<p>の別解をやってたので残す(リンク先ではフビニとかで $sin(tx)$ の $t$ 積分を考えて入れ替えてる).</p>
-<p><img src="/images/R3_4.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="description of the image"
-	
-	
-></p>
-<h1 id="proof">proof
-</h1>$$
-I_1=\int_{-\infty}^\infty \frac{e^{aix}}{x^2}\ dx,\ I_2=\int_{-\infty}^\infty \frac{e^{bix}}{x^2}\ dx
+    <p>[東工大H29,大門5.3]の問題で面白い(時間がかかった)のがあったので解答を書きます.</p>
+<p>問題pdf:</p>
+<embed src="https://www.math.titech.ac.jp/top/~jimu/Graduate/old-exam/H29innsi.pdf" type="application/pdf" width="100%" height="700px">
+<h2 id="proof">proof
+</h2><h3 id="1">(1)
+</h3><p>$\forall\varepsilon&gt;0$を取る. 仮定より,$\ A\in\mathbb{R}$が存在して$(0&lt;R&lt;1)$:
+</p>
 $$
-<p>とすると:</p>
+\forall x\in[R,1),\ \ \exists\delta_x >0,\ |1-x|<\delta_x\Rightarrow \left|A-f(x)\right|<\varepsilon
 $$
-\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{1}{2}Re(I_1-I_2)
+<p>
+また, $f$ が $[0,1)$ で連続より:
+</p>
 $$
-<p>である. 積分経路 $C_+$ を実数直線を通る上半円とする.</p>
-<p>所謂, ジョルダンの不等式($\frac{2}{\pi}\le\frac{sin\theta}{\theta}\le 1\ where\ 0&lt;\theta\le\frac{\pi}{2}$)から $a\ge0$ の時 ($R&gt;0$):</p>
+\exists\delta_1 >0,\forall x,y\in[0,R],\ |x-y|<\delta_1\Rightarrow \left|f(x)-f(y)\right|<\varepsilon
 $$
-\left|\int_{0}^\pi \frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\ d\theta\right|\le \int_{0}^\pi \left|\frac{e^{aiR(cos\theta+i\sin\theta)}}{(Re^{i\theta})^2}Rie^{i\theta}\right|\ d\theta
+<p>
+任意に$x,y\in[0,1)\ (x&gt;y)$を取り:
+</p>
+$$\delta:=\begin{cases}
+\delta_1 &(x,y\in[0,R])\\
+\mathrm{min}\lbrace\delta_x,\delta_1\rbrace &(x\in[R,1),\ y\in[0,R])\\
+\mathrm{min}\lbrace\delta_x,\delta_y\rbrace &(x,y\in[R,1))
+\end{cases}$$
+<p>
+とすると:
+</p>
 $$
+|x-y|<\delta\Rightarrow
+\begin{cases}
+\left|f(x)-f(y)\right|<\epsilon<3\epsilon\ &(x,y\in[0,R])\\
+\left|f(x)-f(y)\right|\le\left|f(y)-f(R)\right|+\left|f(R)-A\right|+\left|A-f(x)\right|<3\epsilon\ &(x\in[R,1),\ y\in[0,R])\\
+\left|f(x)-f(y)\right|\le\left|f(x)-A\right|+\left|A-f(y)\right|<2\epsilon<3\epsilon\ &(x,y\in[R,1))
+\end{cases}
 $$
-\le \int_{0}^\pi \frac{e^{-aR\sin\theta}}{R}\ d\theta\le2\int_{0}^\frac{\pi}{2} \frac{e^{-aR\frac{2\theta}{\pi}}}{R}\ d\theta=\frac{1}{Re^{\frac{2aR}{\pi}}}\int_0^{\pi} e^{-\theta}\ d\theta\to0\ (R\to \infty)
+<p>
+以上より題意は従う.</p>
+<h3 id="2">(2)
+</h3><p>任意に$\varepsilon&gt;0$を取る. 後述する(Claim)より(1)の逆「$f$が$[0,1)$で一様連続ならば$\lim_{x\to1-0}f(x)&lt;\infty$」を示せば対偶より題意は従う. $f$が$[0,1)$で一様連続と仮定する, 即ち:
+</p>
 $$
-<p>故:</p>
+\exists\delta >0,\forall x,y\in[0,1),\ |x-y|<\delta\Rightarrow \left|f(x)-f(y)\right|<\varepsilon
 $$
-I_1 =\int_{C_+}\frac{e^{aiz}}{z^2}\ dz=\pi iRes(\frac{e^{aiz}}{z^2},0)=-\pi a
+<p>
+任意に$[0,1)$上の $1$ に下から近づく点列 $\lbrace x_n\rbrace_{n\in\mathbb{N}}\nearrow 1$ を取る. この時 $\lbrace x_n\rbrace_{n\in\mathbb{N}}$ はコーシー列だから $\exists N\in\mathbb{N}$:
+</p>
 $$
-<p>同様に $b\ge0$ なら:</p>
+n,m\ge N\Rightarrow|x_n-x_m|<\delta
 $$
-I_2=-\pi b
+<p>
+この時一様連続性から:
+</p>
 $$
-<p>故に:</p>
+|f(x_n)-f(x_m)|<\varepsilon
 $$
-\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(b-a)
+<p>
+ここで, $\lbrace x_n\rbrace_{n\in\mathbb{N}}$ は任意であったので $\lim_{x\to1-0}f(x)&lt;\infty$ であり証明終.</p>
+<h4 id="claim">Claim
+</h4>$$
+\lim_{x\to1-0}f(x)<\infty \Leftrightarrow\liminf_{x\to1-0}f(x)=\limsup_{x\to1-0}f(x)
 $$
-<p>同様に $a&lt;0$ の時, $ax=-ax\ (a\neq0)$ と変換すると(下半円を選んでもいいのだが記述がめんどくさいので初等的な変形を行った):</p>
+<p>
+$(\Leftarrow)$ は明らか故, $(\Rightarrow)$ を示す($(\Rightarrow)$の対偶が(2)では必要である). 仮定より:
+</p>
 $$
-I_1=-\int_\infty^{-\infty}\frac{e^{-aix}}{x^2}\ dx=\int_{C_+}\frac{e^{-aiz}}{z^2}\ dz=\pi iRes(\frac{e^{-aiz}}{z^2},0)=a\pi
+\begin{align*}
+\forall\varepsilon>0,\ \forall x\in[0,1),\ \exists\delta>0,\ |1-x|<\delta&\Rightarrow|A-f(x)|<\varepsilon\\
+&\Leftrightarrow A-\varepsilon < f(x) < A+\varepsilon\\
+\end{align*}
 $$
-<p>また $b&lt;0$ に対しても同様に:</p>
+<p>
+不等式に $\liminf, \limsup$ をそれぞれとると:
+</p>
 $$
-I_2=b\pi
+\begin{align*}
+i.e.\ &A-\varepsilon < \liminf_{x\to1-0}f(x)\le\limsup_{x\to1-0}f(x) < A+\varepsilon\\
+i.e.\ &0\le \limsup_{x\to1-0}f(x)-\liminf_{x\to1-0}f(x)<2\varepsilon
+\end{align*}
 $$
-<p>以上より:</p>
+<p>
+$\varepsilon$ は任意だったので題意が従う.</p>
+<h3 id="3">(3)
+</h3><p>$\forall\varepsilon&gt;0,\ \forall x, y\in [0,1)$を取る. この時:</p>
 $$
-\int_0^\infty \frac{cos(ax)-cos(bx)}{x^2}\ dx=\frac{\pi}{2}(|b|-|a|)
+\begin{align*}
+\left|f(x)-f(y)\right| &= \left|\int_y^x f'(z)dz\right|\\
+&\le \int_y^x\left|\frac{1}{(1-z)^\alpha}(1-z)^\alpha f'(z)\right| dz\\
+&\le \mathrm{sup}_{z\in [0,1]}\left|(1-z)^\alpha f'(z)\right|\int_y^x \left|\frac{1}{(1-z)^\alpha}\right| dz\\
+&= \mathrm{sup}_{z\in [0,1]}\left|(1-z)^\alpha f'(z)\right|\frac{1}{1-\alpha}\left|(1-y)^{1-\alpha}-(1-x)^{1-\alpha}\right|
+\end{align*}
+$$
+<p>でありヘルダー連続性(<a class="link" href="https://math.stackexchange.com/questions/3008034/let-0%CE%B11-show-that-if-x-and-y-are-positive-real-numbers-then-x%CE%B1-y%CE%B1%E2%89%A4x"  target="_blank" rel="noopener"
+    >stackexchange</a>)から:</p>
+$$
+|(1-x)^{1-\alpha}-(1-y)^{1-\alpha}|\le |(1-x)-(1-y)|^{1-\alpha}=|x-y|^{1-\alpha}
+$$
+<p>故:
+</p>
+$$\delta^{1-\alpha}=\varepsilon\frac{1-\alpha}{\mathrm{sup}_{z\in[0,1]}\left|(1-z)^\alpha f'(z)\right|}$$
+<p>と $\delta&gt;0$ を取ると $\forall x, y\in [0,1)$ に対して:</p>
+$$
+|x-y|<\delta\Rightarrow\left|f(x)-f(y)\right|\le\varepsilon
 $$
 
 </section>
@@ -426,25 +513,6 @@ $$
         <div class="flex article-list--tile">
             
                 
-<article class="has-image">
-    <a href="/p/2025721/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/toukouH29.png" loading="lazy" data-key="2025721" data-hash="/images/toukouH29.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">ヘルダー連続(東工大H29)</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
 <article class="">
     <a href="/p/2025718/">
         
@@ -452,6 +520,57 @@ $$
 
         <div class="article-details">
             <h2 class="article-title">(カス記事)固有値計算についての院試テク</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/2025717/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/texit_3.PNG" loading="lazy" data-key="2025717" data-hash="/images/texit_3.PNG"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TeXitが楽しい</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/2025713/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">τ-tilting theoryのメモ(未完)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/%E6%9D%B1%E5%A4%A7%E6%95%B0%E7%90%86%E7%A7%91%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F2/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/images/R3_4.png" loading="lazy" data-key="" data-hash="/images/R3_4.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">東大数理科学過去問[2]</h2>
         </div>
     </a>
 </article>
