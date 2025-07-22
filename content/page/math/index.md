@@ -1,5 +1,5 @@
 ---
-title: "数学系"
+title: "専門数学系"
 date: 2019-05-28
 layout: "link"
 slug: "link"

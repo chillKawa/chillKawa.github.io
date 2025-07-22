@@ -16,10 +16,10 @@ menu:
 ---
 
 
-**連絡先**
-- mail: euleorz[at]gmail.com
-- X: [知りたかったら聞いてください]()
-- Discord: chill_kawa_
+**contact me**
+>- mail: euleorz[at]gmail.com
+>- X: [知りたかったら聞いてください]()
+>- Discord: chill_kawa_
 <!-- 
 - Instagram: [現在運用していません]()
 -->
